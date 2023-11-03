@@ -8,6 +8,7 @@ using UnityEngine.InputSystem;
 public class InputHandler : ScriptableObject, PlayerInput.IPlayerActions
 {
     public Action<Vector2> moveEvent;
+    public Action resize;
 
     private PlayerInput input;
 
@@ -33,5 +34,14 @@ public class InputHandler : ScriptableObject, PlayerInput.IPlayerActions
     public void OnMovement(InputAction.CallbackContext context)
     {
         moveEvent?.Invoke(context.ReadValue<Vector2>());
+    }
+
+    public void OnResize(InputAction.CallbackContext context)
+    {
+        if(context.phase == InputActionPhase.Performed)
+        {
+            resize?.Invoke();
+        }
+        
     }
 }
