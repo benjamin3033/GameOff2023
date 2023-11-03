@@ -62,7 +62,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 0, b: 0.16083908, a: 0}
     - _Color_1: {r: 0, g: 0, b: 0, a: 0}
     - _Color_10: {r: 0, g: 0, b: 0, a: 0}
     - _Color_2: {r: 0.9433962, g: 0.39475536, b: 0, a: 0}
@@ -73,7 +73,9 @@ Material:
     - _Color_7: {r: 0, g: 0, b: 0, a: 0}
     - _Color_8: {r: 0, g: 0, b: 0, a: 0}
     - _Color_9: {r: 0, g: 0, b: 0, a: 0}
-    - _Santa_Color: {r: 1, g: 0.8484358, b: 0, a: 0}
+    - _Santa_Bread_And_Hat: {r: 1, g: 1, b: 1, a: 0}
+    - _Santa_Checks: {r: 0.59607846, g: 0.6509804, b: 0.6, a: 0}
+    - _Santa_Color: {r: 0.8943129, g: 0.9211557, b: 0.9339623, a: 0}
     - _Santa_Color_1: {r: 0.38474548, g: 0.5644771, b: 0.6226415, a: 0}
     - _Santa_Color_10: {r: 1, g: 0, b: 0, a: 0}
     - _Santa_Color_11: {r: 1, g: 0, b: 0, a: 0}
@@ -81,7 +83,7 @@ Material:
     - _Santa_Color_13: {r: 0, g: 1, b: 0.9559078, a: 0}
     - _Santa_Color_14: {r: 0.04134263, g: 0.23584908, b: 0, a: 0}
     - _Santa_Color_15: {r: 0.048197746, g: 0, b: 1, a: 0}
-    - _Santa_Color_16: {r: 0, g: 0.5738685, b: 1, a: 0}
+    - _Santa_Color_16: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 0}
     - _Santa_Color_2: {r: 1, g: 1, b: 1, a: 0}
     - _Santa_Color_3: {r: 1, g: 0.17079772, b: 0, a: 0}
     - _Santa_Color_4: {r: 1, g: 0, b: 0, a: 0}
@@ -90,4 +92,18 @@ Material:
     - _Santa_Color_7: {r: 1, g: 0, b: 0, a: 0}
     - _Santa_Color_8: {r: 1, g: 0, b: 0, a: 0}
     - _Santa_Color_9: {r: 1, g: 0, b: 0, a: 0}
+    - _Santa_Ears: {r: 0.59607846, g: 0.6509804, b: 0.6, a: 0}
+    - _Santa_Eye_Balls: {r: 1, g: 1, b: 1, a: 0}
+    - _Santa_Eyebrows: {r: 0.6698113, g: 0.635057, b: 0.635057, a: 0}
+    - _Santa_Eyes_Inner: {r: 0.30584726, g: 0.71381074, b: 0.8207547, a: 0}
+    - _Santa_Face_Color: {r: 0.59260416, g: 0.6509434, b: 0.5961214, a: 0}
+    - _Santa_Hands: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 0}
+    - _Santa_Main_Arm_Color: {r: 1, g: 0, b: 0, a: 0}
+    - _Santa_Main_Body_Color: {r: 1, g: 0.0047169924, b: 0.0047169924, a: 0}
+    - _Santa_Nose: {r: 0.7264151, g: 0.2775454, b: 0.2775454, a: 0}
+    - _Santa_Red_Part_Of_Hat: {r: 1, g: 0.076614, b: 0, a: 0}
+    - _Santa_Second_Body_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Santa_Secondarly_Arm_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Santa_Shoe_Colors: {r: 0, g: 0, b: 0, a: 0}
+    - _Santas_Pants_Colors: {r: 0.9245283, g: 0.039248828, b: 0.039248828, a: 0}
   m_BuildTextureStacks: []
