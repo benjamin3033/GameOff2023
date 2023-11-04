@@ -62,7 +62,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Elf_Arms: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Arms: {r: 0, g: 0.66179675, b: 0.9056604, a: 0}
     - _Elf_Belt: {r: 0, g: 0, b: 0, a: 0}
     - _Elf_Belt_Color: {r: 1, g: 0, b: 0, a: 0}
     - _Elf_Belt_Pices_and_Legs: {r: 0, g: 0, b: 0, a: 0}
@@ -75,7 +75,7 @@ Material:
     - _Elf_Second_Hat_Color: {r: 0, g: 0, b: 0, a: 0}
     - _Elf_Secondly_Color: {r: 0, g: 0, b: 0, a: 0}
     - _Elf_Shoe_Balls: {r: 0, g: 0, b: 0, a: 0}
-    - _Elf_Shoes: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Shoes: {r: 0.9716981, g: 0.93922096, b: 0, a: 0}
     - _Elf_Skin_Color: {r: 0, g: 0, b: 0, a: 1}
     - _Santa_Bread_And_Hat: {r: 0.5377358, g: 0.5200756, b: 0.12428801, a: 0}
     - _Santa_Checks: {r: 0, g: 0.32882464, b: 0.7735849, a: 0}
