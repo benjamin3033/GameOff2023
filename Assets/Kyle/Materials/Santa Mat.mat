@@ -73,8 +73,8 @@ Material:
     - _Color_7: {r: 0, g: 0, b: 0, a: 0}
     - _Color_8: {r: 0, g: 0, b: 0, a: 0}
     - _Color_9: {r: 0, g: 0, b: 0, a: 0}
-    - _Santa_Bread_And_Hat: {r: 1, g: 1, b: 1, a: 0}
-    - _Santa_Checks: {r: 0.59607846, g: 0.6509804, b: 0.6, a: 0}
+    - _Santa_Bread_And_Hat: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 0}
+    - _Santa_Checks: {r: 0.8207547, g: 0.54716974, b: 0.59069467, a: 0}
     - _Santa_Color: {r: 0.8943129, g: 0.9211557, b: 0.9339623, a: 0}
     - _Santa_Color_1: {r: 0.38474548, g: 0.5644771, b: 0.6226415, a: 0}
     - _Santa_Color_10: {r: 1, g: 0, b: 0, a: 0}
@@ -92,16 +92,16 @@ Material:
     - _Santa_Color_7: {r: 1, g: 0, b: 0, a: 0}
     - _Santa_Color_8: {r: 1, g: 0, b: 0, a: 0}
     - _Santa_Color_9: {r: 1, g: 0, b: 0, a: 0}
-    - _Santa_Ears: {r: 0.59607846, g: 0.6509804, b: 0.6, a: 0}
+    - _Santa_Ears: {r: 0.81960785, g: 0.64705884, b: 0.6745098, a: 0}
     - _Santa_Eye_Balls: {r: 1, g: 1, b: 1, a: 0}
-    - _Santa_Eyebrows: {r: 0.6698113, g: 0.635057, b: 0.635057, a: 0}
+    - _Santa_Eyebrows: {r: 0.990566, g: 0.990566, b: 0.990566, a: 0}
     - _Santa_Eyes_Inner: {r: 0.30584726, g: 0.71381074, b: 0.8207547, a: 0}
-    - _Santa_Face_Color: {r: 0.59260416, g: 0.6509434, b: 0.5961214, a: 0}
-    - _Santa_Hands: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 0}
+    - _Santa_Face_Color: {r: 0.8207547, g: 0.64782834, b: 0.6750071, a: 0}
+    - _Santa_Hands: {r: 0.81960785, g: 0.64705884, b: 0.6745098, a: 0}
     - _Santa_Main_Arm_Color: {r: 1, g: 0, b: 0, a: 0}
     - _Santa_Main_Body_Color: {r: 1, g: 0.0047169924, b: 0.0047169924, a: 0}
-    - _Santa_Nose: {r: 0.7264151, g: 0.2775454, b: 0.2775454, a: 0}
-    - _Santa_Red_Part_Of_Hat: {r: 1, g: 0.076614, b: 0, a: 0}
+    - _Santa_Nose: {r: 0.6886792, g: 0.4721134, b: 0.50656706, a: 0}
+    - _Santa_Red_Part_Of_Hat: {r: 1, g: 0.078431375, b: 0, a: 0}
     - _Santa_Second_Body_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Santa_Secondarly_Arm_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Santa_Shoe_Colors: {r: 0, g: 0, b: 0, a: 0}
