@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2491379720958434321
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Elf
+  m_Shader: {fileID: -6465566751694194690, guid: dd3819fff4ee5f84bb1b25af0b6a2e0a,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_551d18fbbcbb48bcac8e90a3cd97f7a9_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 6b776fc8817a3ba4ab5bacbc82623f80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_6dac3c866b2a4e828f7f781ccdd0398a_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 6b776fc8817a3ba4ab5bacbc82623f80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - _Elf_Arms: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Belt: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Belt_Color: {r: 1, g: 0, b: 0, a: 0}
+    - _Elf_Belt_Pices_and_Legs: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Body_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Eye_Color_Main: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Face_Check: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Hat_Base_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Middle_Eye_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Noses_Colors: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Second_Hat_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Secondly_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Shoe_Balls: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Shoes: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Skin_Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Santa_Bread_And_Hat: {r: 0.5377358, g: 0.5200756, b: 0.12428801, a: 0}
+    - _Santa_Checks: {r: 0, g: 0.32882464, b: 0.7735849, a: 0}
+    - _Santa_Ears: {r: 0.4581866, g: 0.8113208, b: 0, a: 0}
+    - _Santa_Eye_Balls: {r: 1, g: 0.25943398, b: 0.3175174, a: 0}
+    - _Santa_Eyebrows: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 0}
+    - _Santa_Eyes_Inner: {r: 0.8687206, g: 1, b: 0.6556604, a: 0}
+    - _Santa_Face_Color: {r: 1, g: 0.0107850125, b: 0, a: 0}
+    - _Santa_Hands: {r: 0.7590775, g: 0, b: 0.9245283, a: 0}
+    - _Santa_Main_Arm_Color: {r: 0, g: 1, b: 0.010393143, a: 0}
+    - _Santa_Main_Body_Color: {r: 0.07971394, g: 1, b: 0, a: 0}
+    - _Santa_Nose: {r: 1, g: 0.9139734, b: 0.6179246, a: 0}
+    - _Santa_Red_Part_Of_Hat: {r: 0.81982994, g: 1, b: 0.3160377, a: 0}
+    - _Santa_Second_Body_Color: {r: 1, g: 0, b: 0, a: 0}
+    - _Santa_Secondarly_Arm_Color: {r: 0.9716981, g: 0.087086126, b: 0.087086126,
+        a: 0}
+    - _Santa_Shoe_Colors: {r: 0.28773582, g: 1, b: 0.8758298, a: 0}
+    - _Santas_Pants_Colors: {r: 0.08018869, g: 1, b: 0.24768616, a: 0}
+  m_BuildTextureStacks: []
