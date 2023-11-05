@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4857281469741686537
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Christmas Trees
-  m_Shader: {fileID: -6465566751694194690, guid: 690513356ea5b3e42b411707950d2eb4,
+  m_Name: Candy Canes
+  m_Shader: {fileID: -6465566751694194690, guid: f7829ecc21d2797439a023a54349454e,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -58,12 +45,21 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Christmas_Tree_Decorations_Ball_1: {r: 0.6037736, g: 0.5521918, b: 0, a: 0}
-    - _Christmas_Tree_Decorations_Ball_2: {r: 1, g: 0.13014984, b: 0, a: 0}
-    - _Nonthing: {r: 1, g: 0, b: 0.042179585, a: 0}
-    - _Present_Ribbon: {r: 1, g: 0, b: 0.47482157, a: 0}
-    - _Present_Ripping_Paper_Main: {r: 0.6415094, g: 0.5688264, b: 0.26326096, a: 0}
-    - _Present_Ripping_Paper_Secondary: {r: 1, g: 0.30331957, b: 0, a: 0}
-    - _Tree_Base: {r: 0.16235074, g: 0.1981132, b: 0.012148457, a: 0}
-    - _Tree_Main: {r: 0.3630638, g: 0.4433962, b: 0.035555363, a: 0}
+    - _Nonthing: {r: 1, g: 0.7322525, b: 0, a: 0}
+    - _Present_Ribbon: {r: 1, g: 0.8874891, b: 0, a: 0}
+    - _Present_Ripping_Paper_Main: {r: 1, g: 0.8065501, b: 0, a: 0}
+    - _Present_Ripping_Paper_Secondary: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
+--- !u!114 &7621621046130229001
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
