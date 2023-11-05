@@ -45,10 +45,13 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
+    - _Candy_Canes_Red: {r: 1, g: 0, b: 0, a: 0}
+    - _Candy_Canes_White: {r: 1, g: 1, b: 1, a: 0}
+    - _None: {r: 1, g: 0.8065501, b: 0, a: 0}
     - _Nonthing: {r: 1, g: 0.7322525, b: 0, a: 0}
-    - _Present_Ribbon: {r: 1, g: 0.8874891, b: 0, a: 0}
-    - _Present_Ripping_Paper_Main: {r: 1, g: 0.8065501, b: 0, a: 0}
-    - _Present_Ripping_Paper_Secondary: {r: 1, g: 0, b: 0, a: 0}
+    - _Present_Ribbon: {r: 1, g: 0, b: 0.49158287, a: 0}
+    - _Present_Ripping_Paper_Main: {r: 0, g: 0.84184885, b: 1, a: 0}
+    - _Present_Ripping_Paper_Secondary: {r: 1, g: 0.6629182, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7621621046130229001
 MonoBehaviour:
