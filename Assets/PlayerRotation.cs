@@ -1,34 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerRotation : MonoBehaviour
 {
-    [SerializeField] Transform PlayerVisual;
-    [SerializeField] float rotationSpeed = 5f;
     Camera cam;
+    public float rotationSpeed = 5.0f;
 
     private void Start()
     {
         cam = Camera.main;
     }
-    void FixedUpdate()
+
+    private void FixedUpdate()
     {
-        
-        Vector3 mousePosition = Input.mousePosition;
+        // Get the cursor position in screen coordinates
+        Vector3 cursorPosition = Input.mousePosition;
 
-        
-        Ray ray = cam.ScreenPointToRay(mousePosition);
+        // Convert the screen position to a ray in the world
+        Ray ray = cam.ScreenPointToRay(cursorPosition);
 
-        
-        if (Physics.Raycast(ray, out RaycastHit hit))
+        // Create a plane at the object's position with a normal pointing out
+        Plane plane = new Plane(Vector3.up, transform.position);
+
+        // Calculate the intersection point between the ray and the plane
+        if (plane.Raycast(ray, out float distance))
         {
-            
-            Vector3 cursorDirection = hit.point - transform.position;
-            cursorDirection.y = 0;
+            // Get the point of intersection
+            Vector3 targetPoint = ray.GetPoint(distance);
 
-            Quaternion newRotation = Quaternion.LookRotation(cursorDirection);
-            PlayerVisual.localRotation = Quaternion.Slerp(PlayerVisual.localRotation, newRotation, rotationSpeed * Time.deltaTime);
+            // Calculate the direction to the target point
+            Vector3 direction = targetPoint - transform.position;
+
+            // Rotate the object to face the target point
+            Quaternion rotation = Quaternion.LookRotation(direction);
+            transform.rotation = Quaternion.Slerp(transform.rotation, rotation, rotationSpeed * Time.deltaTime);
         }
     }
 }

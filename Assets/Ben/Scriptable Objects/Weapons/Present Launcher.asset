@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 4545344844539664421, guid: 0504e737e51d5994c992d56f556a5a22,
     type: 3}
-  ShotDelay: 2
+  ShotDelay: 0.1
+  ShotDamage: 1
+  ShotLifeTime: 2
   ProjectileSpeed: 1000

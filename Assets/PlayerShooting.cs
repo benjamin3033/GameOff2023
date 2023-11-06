@@ -5,8 +5,7 @@ using UnityEngine;
 public class PlayerShooting : MonoBehaviour
 {
     [SerializeField] InputHandler input;
-    [SerializeField] WeaponSO weapon;
-    [SerializeField] Transform PlayerVisual;
+    [SerializeField] WeaponSO currentWeapon;
 
     bool canShoot = true;
 
@@ -31,12 +30,12 @@ public class PlayerShooting : MonoBehaviour
     {
         canShoot = false;
 
-        Projectile shot = Instantiate(weapon.projectile);
-        shot.transform.position = PlayerVisual.localPosition + (PlayerVisual.forward);
-        shot.SendProjectileInDirection(transform.forward * weapon.ProjectileSpeed);
+        Projectile shot = Instantiate(currentWeapon.projectile);
+        shot.SetWeapon(currentWeapon);
+        shot.transform.position = transform.position + (transform.forward);
+        shot.SendProjectileInDirection(transform.forward * currentWeapon.ProjectileSpeed);
 
-
-        yield return new WaitForSeconds(weapon.ShotDelay);
+        yield return new WaitForSeconds(currentWeapon.ShotDelay);
 
         canShoot = true;
     }
