@@ -22,4 +22,6 @@ public class EnemySpawner : MonoBehaviour
         aI.GetComponent<Enemy>().EnemyDied -= OnEnemyDeath;
         enemies.Remove(aI);
     }
+
+    
 }

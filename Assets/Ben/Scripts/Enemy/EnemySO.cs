@@ -7,6 +7,7 @@ using UnityEngine.AI;
 public class EnemySO : ScriptableObject
 {
     public int NavMeshAgentType;
+    public int Health;
 
     [Header("Steering")]
     public float Speed = 3.5f;

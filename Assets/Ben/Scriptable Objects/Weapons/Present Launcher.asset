@@ -14,6 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 4545344844539664421, guid: 0504e737e51d5994c992d56f556a5a22,
     type: 3}
+  projectileTrail: {fileID: 5890045561557738439, guid: 5788179306fec0a4ab7e51cd906cfaac,
+    type: 3}
+  projectileCollision: {fileID: 6344948186754524761, guid: 037cc2414873b6249a93453cb89d946f,
+    type: 3}
   ShotDelay: 0.1
   ShotDamage: 1
   ShotLifeTime: 2

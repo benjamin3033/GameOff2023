@@ -10,7 +10,7 @@ public class EnemyWaveController : MonoBehaviour
     [SerializeField] int AmountToSpawn = 20;
     [SerializeField] float radius = 5f;
 
-    private void Start()
+    public void SpawnWave()
     {
         for (int i = 0; i < AmountToSpawn; i++)
         {
@@ -21,24 +21,25 @@ public class EnemyWaveController : MonoBehaviour
 
             Vector3 spawnPosition = new Vector3(x, 1, z);
 
-            if(!IsObstacleInWay(spawnPosition))
+            if (IsRoomToSpawn(spawnPosition, 0.5f))
             {
                 enemySpawner.SpawnNewEnemy(enemyTypes[0], spawnPosition);
-            }            
+            }
         }
     }
 
-    bool IsObstacleInWay(Vector3 position)
+    private bool IsRoomToSpawn(Vector3 position, float radius)
     {
-        // Check if there's an obstacle at the given position using raycasting.
-        Ray ray = new Ray(position, Vector3.zero);
-        RaycastHit hit;
-
-        if (Physics.Raycast(ray, out hit, 5f))
+        if (Physics.CheckSphere(position, radius))
         {
+            
+            return false;
+        }
+        else
+        {
+
             return true;
         }
-
-        return false;
     }
+
 }

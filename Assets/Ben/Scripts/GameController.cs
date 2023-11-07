@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.AI.Navigation;
 using UnityEngine;
 
 public class GameController : MonoBehaviour
@@ -8,6 +9,9 @@ public class GameController : MonoBehaviour
 
     [SerializeField] Transform Player;
     [SerializeField] EnemySpawner enemySpawner;
+    [SerializeField] LevelTileController levelTileController;
+    [SerializeField] EnemyWaveController enemyWaveController;
+    [SerializeField] NavMeshSurface navMesh;
 
     private void OnEnable()
     {
@@ -23,6 +27,9 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
+        levelTileController.GenerateGrid();
+        navMesh.BuildNavMesh();
+        enemyWaveController.SpawnWave();
         InvokeRepeating(nameof(UpdateEnemiesPlayerPosition), 0, 0.5f);
     }
 

@@ -5,9 +5,15 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float Health = 1;
-
+    private float Health = 1;
+    [SerializeField] EnemySO enemySO;
+    [SerializeField] Transform Visual;
     public Action<EnemyAI> EnemyDied;
+
+    private void Start()
+    {
+        Health = enemySO.Health;
+    }
 
     public void TakeDamage(int amount)
     {
@@ -18,6 +24,8 @@ public class Enemy : MonoBehaviour
     private void KillEnemy()
     {
         EnemyDied?.Invoke(GetComponent<EnemyAI>());
+        Visual.localRotation = Quaternion.Euler(0, -90, 90);
+        Visual.parent = null;
         Destroy(gameObject);
     }
 }

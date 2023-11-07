@@ -35,6 +35,11 @@ public class PlayerShooting : MonoBehaviour
         shot.transform.position = transform.position + (transform.forward);
         shot.SendProjectileInDirection(transform.forward * currentWeapon.ProjectileSpeed);
 
+        if(currentWeapon.projectileTrail != null)
+        {
+            Instantiate(currentWeapon.projectileTrail, shot.transform);
+        }
+
         yield return new WaitForSeconds(currentWeapon.ShotDelay);
 
         canShoot = true;

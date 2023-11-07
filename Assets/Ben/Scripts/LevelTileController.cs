@@ -10,15 +10,9 @@ public class LevelTileController : MonoBehaviour
 
     [SerializeField] List<GameObject> TilePrefab = new();
     [SerializeField] GameObject TileEdge;
-    [SerializeField] NavMeshSurface navMesh;
+    
 
-    private void Start()
-    {
-        GenerateGrid();
-        navMesh.BuildNavMesh();
-    }
-
-    void GenerateGrid()
+    public void GenerateGrid()
     {
         for (int row = 0; row < numRows; row++)
         {
