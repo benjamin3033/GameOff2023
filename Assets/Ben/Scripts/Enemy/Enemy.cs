@@ -26,6 +26,9 @@ public class Enemy : MonoBehaviour
         EnemyDied?.Invoke(GetComponent<EnemyAI>());
         Visual.localRotation = Quaternion.Euler(0, -90, 90);
         Visual.parent = null;
+
+        GameController.Instance.SpawnCookie(transform.position);
+
         Destroy(gameObject);
     }
 }

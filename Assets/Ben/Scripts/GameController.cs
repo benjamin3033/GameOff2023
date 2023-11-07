@@ -7,6 +7,12 @@ public class GameController : MonoBehaviour
 {
     public static GameController Instance;
 
+    public int CookiesCollected = 0;
+
+    [Header("Prefabs")]
+    [SerializeField] GameObject Cookie;
+
+    [Header("References")]
     [SerializeField] Transform Player;
     [SerializeField] EnemySpawner enemySpawner;
     [SerializeField] LevelTileController levelTileController;
@@ -31,6 +37,17 @@ public class GameController : MonoBehaviour
         navMesh.BuildNavMesh();
         enemyWaveController.SpawnWave();
         InvokeRepeating(nameof(UpdateEnemiesPlayerPosition), 0, 0.5f);
+    }
+
+    public void IncreaseCookies()
+    {
+        CookiesCollected++;
+    }
+
+    public void SpawnCookie(Vector3 position)
+    {
+        GameObject cookieInstance = Instantiate(Cookie);
+        cookieInstance.transform.position = position;
     }
 
     private void UpdateEnemiesPlayerPosition()

@@ -22,3 +22,4 @@ MonoBehaviour:
   ShotDamage: 1
   ShotLifeTime: 2
   ProjectileSpeed: 1000
+  CameraShakeAmount: 0.5
