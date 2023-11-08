@@ -28,6 +28,7 @@ public class Enemy : MonoBehaviour
         Visual.parent = null;
 
         GameController.Instance.SpawnCookie(transform.position);
+        GameController.Instance.SpawnMilk(transform.position);
 
         Destroy(gameObject);
     }
