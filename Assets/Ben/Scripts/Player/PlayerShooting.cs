@@ -21,7 +21,7 @@ public class PlayerShooting : MonoBehaviour
 
     private void ShootWeaponInput()
     {
-        if (!canShoot) { return; }
+        if (!canShoot || !GameController.Instance.CanPlayerMove) { return; }
 
         StartCoroutine(FireWeapon());
     }

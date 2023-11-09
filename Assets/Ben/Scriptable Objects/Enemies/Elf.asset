@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Elf
   m_EditorClassIdentifier: 
   NavMeshAgentType: 0
+  Health: 0
   Speed: 3.5
   AngularSpeed: 120
   Acceleration: 8
   StoppingDistance: 0
   AutoBraking: 1
-  Radius: 0.5
+  Radius: 0.3
   Height: 2
   Quality: 4
   Priority: 50

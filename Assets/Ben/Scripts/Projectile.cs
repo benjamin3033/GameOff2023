@@ -12,12 +12,36 @@ public class Projectile : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.collider.TryGetComponent<Enemy>(out Enemy enemy)) 
-        {
-            enemy.TakeDamage(weapon.ShotDamage);
-            DestroyProjectile(0);
+        Debug.Log(weapon.chosenProjectileType);
 
-            CollisionParticle();
+        switch(weapon.chosenProjectileType)
+        {
+            case WeaponSO.ProjectileType.Basic:
+                {
+                    if (collision.collider.TryGetComponent<Enemy>(out Enemy enemy))
+                    {
+                        enemy.TakeDamage(weapon.ShotDamage);
+                        DestroyProjectile(0);
+                        CollisionParticle();
+                    }
+                }
+                break;
+
+            case WeaponSO.ProjectileType.Explosive:
+                {
+                    Collider[] hitColliders = Physics.OverlapSphere(transform.position, weapon.ExplosiveRadius);
+
+                    foreach (var hitCollider in hitColliders)
+                    {
+                        if (hitCollider.TryGetComponent<Enemy>(out Enemy enemy))
+                        {
+                            enemy.TakeDamage(weapon.ShotDamage);
+                        }
+                    }
+                    DestroyProjectile(0);
+                    CollisionParticle();
+                }
+                break;
         }
 
         DestroyProjectile(0);

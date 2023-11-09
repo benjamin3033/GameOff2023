@@ -15,6 +15,8 @@ public class PlayerRotation : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if(!GameController.Instance.CanPlayerMove) { return; }
+
         // Get the cursor position in screen coordinates
         Vector3 cursorPosition = Input.mousePosition;
 

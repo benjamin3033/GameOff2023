@@ -23,3 +23,5 @@ MonoBehaviour:
   ShotLifeTime: 2
   ProjectileSpeed: 1000
   CameraShakeAmount: 0.5
+  chosenProjectileType: 1
+  ExplosiveRadius: 2

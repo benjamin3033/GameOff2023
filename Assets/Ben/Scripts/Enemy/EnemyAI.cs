@@ -34,6 +34,7 @@ public class EnemyAI : MonoBehaviour
 
     public void UpdateDestination(Vector3 destination)
     {
+        if(agent.isActiveAndEnabled)
         agent.destination = destination;
     }
 }

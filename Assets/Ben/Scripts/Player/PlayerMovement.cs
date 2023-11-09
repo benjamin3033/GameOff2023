@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void HandleMovement()
     {
-        if(previousInput == Vector2.zero) { return; }
+        if(previousInput == Vector2.zero || !GameController.Instance.CanPlayerMove) { return; }
 
         Vector3 movementVector = new Vector3(previousInput.x, 0, previousInput.y);
 

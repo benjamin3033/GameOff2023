@@ -6,6 +6,8 @@ using UnityEngine;
 public class PlayerResizing : MonoBehaviour
 {
     [SerializeField] InputHandler inputHandler;
+    [SerializeField] float ExplosionForce = 10;
+    [SerializeField] float UpwardMultiplyer = 2f;
     [SerializeField] Vector3 SlimScale = Vector3.one;
     [SerializeField] Vector3 FatScale = new(2, 2, 2);
 
@@ -32,5 +34,20 @@ public class PlayerResizing : MonoBehaviour
     {
         ScaleIsSlim = !ScaleIsSlim;
         transform.localScale = ScaleIsSlim ? SlimScale : FatScale;
+
+        if(!ScaleIsSlim)
+        {
+            Vector3 playerPosition = transform.position;
+
+            RaycastHit[] hits = Physics.SphereCastAll(playerPosition, 5, Vector3.up, 0);
+
+            foreach (RaycastHit hit in hits)
+            {
+                if (hit.transform.TryGetComponent<Enemy>(out Enemy enemyComponent))
+                {
+                    enemyComponent.ExplodeAwayFromPlayer(transform.position, ExplosionForce, UpwardMultiplyer, 5);
+                }
+            }
+        }
     }
 }

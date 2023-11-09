@@ -123,6 +123,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemySO: {fileID: 11400000, guid: 540d3606717533f41bfccb6d1cffa90d, type: 2}
   Visual: {fileID: 3914314299513463462}
+  rb: {fileID: 565543211863919074}
+  agent: {fileID: 2042392205363046986}
 --- !u!114 &126447632353482117
 MonoBehaviour:
   m_ObjectHideFlags: 0
