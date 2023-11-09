@@ -62,10 +62,13 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Gun_Part_1: {r: 0, g: 0, b: 0, a: 0}
-    - _Gun_Part_3: {r: 0, g: 0, b: 0, a: 0}
-    - _Gun_Part_4: {r: 0, g: 0, b: 0, a: 0}
-    - _Gun_Part_5: {r: 0, g: 0, b: 0, a: 0}
+    - _Gun_Handel: {r: 0, g: 0, b: 0, a: 0}
+    - _Gun_Part_1: {r: 1, g: 0.9315591, b: 0, a: 0}
+    - _Gun_Part_2: {r: 1, g: 0, b: 0, a: 0}
+    - _Gun_Part_3: {r: 0.8867924, g: 0.12130654, b: 0.43402043, a: 0}
+    - _Gun_Part_4: {r: 0.78867763, g: 0, b: 0.8773585, a: 0}
+    - _Gun_Part_5: {r: 0.0864951, g: 0.6320754, b: 0.062611245, a: 0}
+    - _Gun_Part_6: {r: 1, g: 0.08018869, b: 0.08018869, a: 0}
     - _Present_1_Ribbon: {r: 0.9140397, g: 1, b: 0, a: 0}
     - _Present_1_Ripping_Paper_Main: {r: 1, g: 0, b: 0.079694726, a: 0}
     - _Present_1_Ripping_Paper_Secondary: {r: 0.99410534, g: 0, b: 1, a: 0}
@@ -75,7 +78,7 @@ Material:
     - _Present_2_Ripping_Paper_Secondary: {r: 0.8623395, g: 0.8867924, b: 0.054378804,
         a: 0}
     - _Present_3_Ribbon: {r: 0.68501794, g: 0.6886792, b: 0.11369702, a: 0}
-    - _Present_3_Ripping_Paper_Main: {r: 0, g: 0, b: 0, a: 0}
+    - _Present_3_Ripping_Paper_Main: {r: 1, g: 0, b: 0, a: 0}
     - _Present_3_Ripping_Paper_Secondary: {r: 0, g: 0, b: 0, a: 0}
     - _Santa_Bread_And_Hat: {r: 0.8207547, g: 0.752926, b: 0.12001601, a: 0}
     - _Santa_Checks: {r: 0.6930878, g: 0.7075472, b: 0.19023673, a: 0}
