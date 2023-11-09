@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Christmas Trees
+  m_Name: Christmas Trees Decorations
   m_Shader: {fileID: -6465566751694194690, guid: 690513356ea5b3e42b411707950d2eb4,
     type: 3}
   m_Parent: {fileID: 0}
@@ -58,8 +58,8 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Christmas_Tree_Decorations_Ball_1: {r: 1, g: 1, b: 1, a: 0}
-    - _Christmas_Tree_Decorations_Ball_2: {r: 1, g: 1, b: 1, a: 0}
+    - _Christmas_Tree_Decorations_Ball_1: {r: 0.6037736, g: 0.5521918, b: 0, a: 0}
+    - _Christmas_Tree_Decorations_Ball_2: {r: 1, g: 0.13014984, b: 0, a: 0}
     - _Nonthing: {r: 1, g: 0, b: 0.042179585, a: 0}
     - _Present_Ribbon: {r: 1, g: 0, b: 0.47482157, a: 0}
     - _Present_Ripping_Paper_Main: {r: 0.6415094, g: 0.5688264, b: 0.26326096, a: 0}

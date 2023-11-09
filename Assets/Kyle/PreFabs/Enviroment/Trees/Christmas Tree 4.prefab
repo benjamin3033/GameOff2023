@@ -1,0 +1,887 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6248986497634173166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3543631811095940517}
+  - component: {fileID: 6514129465277583307}
+  m_Layer: 0
+  m_Name: Christmas Tree 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3543631811095940517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6248986497634173166}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4654588773777870599}
+  - {fileID: 3385939137311022760}
+  - {fileID: 2701123797007496773}
+  - {fileID: 5814136295029929048}
+  - {fileID: 3568186757661433668}
+  - {fileID: 8349660053336140319}
+  - {fileID: 5719095346785457595}
+  - {fileID: 5296553929246726272}
+  - {fileID: 4637237987101703575}
+  - {fileID: 1424561589094747292}
+  - {fileID: 2585791024477725849}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &6514129465277583307
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6248986497634173166}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.77
+  m_Height: 2.4895635
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.2500367, z: 0}
+--- !u!1001 &2648510551758409004
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3543631811095940517}
+    m_Modifications:
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.461
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.195
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5773313763654354563, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_Name
+      value: Christmas Tree Decorations Ball 2 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d44049e7c7b8a3a449a6618a107a5a06, type: 3}
+--- !u!4 &2701123797007496773 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+    type: 3}
+  m_PrefabInstance: {fileID: 2648510551758409004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3404846855708173761
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3543631811095940517}
+    m_Modifications:
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.379
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.397
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5773313763654354563, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_Name
+      value: Christmas Tree Decorations Ball 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d44049e7c7b8a3a449a6618a107a5a06, type: 3}
+--- !u!4 &3385939137311022760 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+    type: 3}
+  m_PrefabInstance: {fileID: 3404846855708173761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3474959681040606253
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3543631811095940517}
+    m_Modifications:
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.053
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.928
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.624
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5773313763654354563, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_Name
+      value: Christmas Tree Decorations Ball 2 (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d44049e7c7b8a3a449a6618a107a5a06, type: 3}
+--- !u!4 &3568186757661433668 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+    type: 3}
+  m_PrefabInstance: {fileID: 3474959681040606253}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3623114556523582160
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3543631811095940517}
+    m_Modifications:
+    - target: {fileID: 1704223230408054705, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_Name
+      value: Christmas Tree Decorations Ball 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.238
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.503
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.208
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 05ef3c3644c7d704b962d77dbbbe889f, type: 3}
+--- !u!4 &4637237987101703575 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+    type: 3}
+  m_PrefabInstance: {fileID: 3623114556523582160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4295316541608900551
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3543631811095940517}
+    m_Modifications:
+    - target: {fileID: 1704223230408054705, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_Name
+      value: Christmas Tree Decorations Ball 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.324
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.969
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.393
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 05ef3c3644c7d704b962d77dbbbe889f, type: 3}
+--- !u!4 &5296553929246726272 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4295316541608900551}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4414489664006322940
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3543631811095940517}
+    m_Modifications:
+    - target: {fileID: 1704223230408054705, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_Name
+      value: Christmas Tree Decorations Ball 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.382
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.868
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.437
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 05ef3c3644c7d704b962d77dbbbe889f, type: 3}
+--- !u!4 &5719095346785457595 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4414489664006322940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5121387351078103276
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3543631811095940517}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1f172dfae678bb44a91104bd9ec7b396,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f172dfae678bb44a91104bd9ec7b396,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f172dfae678bb44a91104bd9ec7b396,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f172dfae678bb44a91104bd9ec7b396,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f172dfae678bb44a91104bd9ec7b396,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f172dfae678bb44a91104bd9ec7b396,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f172dfae678bb44a91104bd9ec7b396,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f172dfae678bb44a91104bd9ec7b396,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f172dfae678bb44a91104bd9ec7b396,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f172dfae678bb44a91104bd9ec7b396,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1f172dfae678bb44a91104bd9ec7b396,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6d032f14c569a7e4d88b17e81af0a587, type: 2}
+    - target: {fileID: 919132149155446097, guid: 1f172dfae678bb44a91104bd9ec7b396,
+        type: 3}
+      propertyPath: m_Name
+      value: Christmas Tree 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1f172dfae678bb44a91104bd9ec7b396, type: 3}
+--- !u!4 &4654588773777870599 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1f172dfae678bb44a91104bd9ec7b396,
+    type: 3}
+  m_PrefabInstance: {fileID: 5121387351078103276}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5841944695410102065
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3543631811095940517}
+    m_Modifications:
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.053
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.882
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.624
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5773313763654354563, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_Name
+      value: Christmas Tree Decorations Ball 2 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d44049e7c7b8a3a449a6618a107a5a06, type: 3}
+--- !u!4 &5814136295029929048 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+    type: 3}
+  m_PrefabInstance: {fileID: 5841944695410102065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5908642601369930718
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3543631811095940517}
+    m_Modifications:
+    - target: {fileID: 1704223230408054705, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_Name
+      value: Christmas Tree Decorations Ball 1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.211
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.144
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.347
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 05ef3c3644c7d704b962d77dbbbe889f, type: 3}
+--- !u!4 &2585791024477725849 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+    type: 3}
+  m_PrefabInstance: {fileID: 5908642601369930718}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7050432671149646811
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3543631811095940517}
+    m_Modifications:
+    - target: {fileID: 1704223230408054705, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_Name
+      value: Christmas Tree Decorations Ball 1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.493
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.677
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.461
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 05ef3c3644c7d704b962d77dbbbe889f, type: 3}
+--- !u!4 &1424561589094747292 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8222768211989786439, guid: 05ef3c3644c7d704b962d77dbbbe889f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7050432671149646811}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8242365827111571830
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3543631811095940517}
+    m_Modifications:
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.166
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.373
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5773313763654354563, guid: d44049e7c7b8a3a449a6618a107a5a06,
+        type: 3}
+      propertyPath: m_Name
+      value: Christmas Tree Decorations Ball 2 (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d44049e7c7b8a3a449a6618a107a5a06, type: 3}
+--- !u!4 &8349660053336140319 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 125317491744537449, guid: d44049e7c7b8a3a449a6618a107a5a06,
+    type: 3}
+  m_PrefabInstance: {fileID: 8242365827111571830}
+  m_PrefabAsset: {fileID: 0}
