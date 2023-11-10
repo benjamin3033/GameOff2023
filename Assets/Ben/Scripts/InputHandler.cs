@@ -9,6 +9,7 @@ public class InputHandler : ScriptableObject, PlayerInput.IPlayerActions
 {
     public Action<Vector2> moveEvent;
     public Action resize;
+    public Action shoot;
 
     private PlayerInput input;
 
@@ -43,5 +44,13 @@ public class InputHandler : ScriptableObject, PlayerInput.IPlayerActions
             resize?.Invoke();
         }
         
+    }
+
+    public void OnShoot(InputAction.CallbackContext context)
+    {
+        if (context.phase == InputActionPhase.Performed)
+        {
+            shoot?.Invoke();
+        }
     }
 }

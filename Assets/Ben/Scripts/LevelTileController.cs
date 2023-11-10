@@ -9,16 +9,11 @@ public class LevelTileController : MonoBehaviour
     [SerializeField] float spacing = 10f;
 
     [SerializeField] List<GameObject> TilePrefab = new();
-    [SerializeField] GameObject TileEdge;
-    [SerializeField] NavMeshSurface navMesh;
+    [SerializeField] GameObject edgeTilePrefab;
+    [SerializeField] GameObject centerTilePrefab;
 
-    private void Start()
-    {
-        GenerateGrid();
-        navMesh.BuildNavMesh();
-    }
 
-    void GenerateGrid()
+    public void GenerateGrid()
     {
         for (int row = 0; row < numRows; row++)
         {
@@ -30,7 +25,23 @@ public class LevelTileController : MonoBehaviour
                     row * spacing - (numRows - 1) * spacing * 0.5f
                 ) + transform.position;
 
-                GameObject tilePrefab = (row == 0 || row == numRows - 1 || col == 0 || col == numCols - 1) ? TileEdge : TilePrefab[Random.Range(0, TilePrefab.Count)];
+                GameObject tilePrefab;
+
+                if (row == 0 || row == numRows - 1 || col == 0 || col == numCols - 1)
+                {
+                    // Edge tile
+                    tilePrefab = edgeTilePrefab;
+                }
+                else if (row == numRows / 2 && col == numCols / 2)
+                {
+                    // Center tile
+                    tilePrefab = centerTilePrefab;
+                }
+                else
+                {
+                    // Inner tile
+                    tilePrefab = TilePrefab[Random.Range(0, TilePrefab.Count)];
+                }
 
                 Instantiate(tilePrefab, position, Quaternion.identity);
             }

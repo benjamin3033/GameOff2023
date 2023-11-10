@@ -62,21 +62,21 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Elf_Arms: {r: 0, g: 0.66179675, b: 0.9056604, a: 0}
-    - _Elf_Belt: {r: 0, g: 0, b: 0, a: 0}
-    - _Elf_Belt_Color: {r: 1, g: 0, b: 0, a: 0}
-    - _Elf_Belt_Pices_and_Legs: {r: 0, g: 0, b: 0, a: 0}
-    - _Elf_Body_Color: {r: 0, g: 0, b: 0, a: 0}
-    - _Elf_Eye_Color_Main: {r: 0, g: 0, b: 0, a: 0}
-    - _Elf_Face_Check: {r: 0, g: 0, b: 0, a: 0}
-    - _Elf_Hat_Base_Color: {r: 0, g: 0, b: 0, a: 0}
-    - _Elf_Middle_Eye_Color: {r: 0, g: 0, b: 0, a: 0}
-    - _Elf_Noses_Colors: {r: 0, g: 0, b: 0, a: 0}
-    - _Elf_Second_Hat_Color: {r: 0, g: 0, b: 0, a: 0}
-    - _Elf_Secondly_Color: {r: 0, g: 0, b: 0, a: 0}
-    - _Elf_Shoe_Balls: {r: 0, g: 0, b: 0, a: 0}
-    - _Elf_Shoes: {r: 0.9716981, g: 0.93922096, b: 0, a: 0}
-    - _Elf_Skin_Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Elf_Arms: {r: 0.5030029, g: 1, b: 0, a: 0}
+    - _Elf_Belt: {r: 0.09758962, g: 0.4433962, b: 0, a: 0}
+    - _Elf_Belt_Color: {r: 0.8113208, g: 0.022929253, b: 0, a: 0}
+    - _Elf_Belt_Pices_and_Legs: {r: 0.7372549, g: 0.011764706, b: 0.011764706, a: 0}
+    - _Elf_Body_Color: {r: 0.18039216, g: 0.81960785, b: 0, a: 0}
+    - _Elf_Eye_Color_Main: {r: 1, g: 1, b: 1, a: 0}
+    - _Elf_Face_Check: {r: 0.8584906, g: 0.71000946, b: 0.82487446, a: 0}
+    - _Elf_Hat_Base_Color: {r: 0.18039216, g: 0.81960785, b: 0, a: 0}
+    - _Elf_Middle_Eye_Color: {r: 1, g: 0, b: 0, a: 0}
+    - _Elf_Noses_Colors: {r: 1, g: 0.30817604, b: 0.30817604, a: 0}
+    - _Elf_Second_Hat_Color: {r: 0.735849, g: 0.011569878, b: 0.011569878, a: 0}
+    - _Elf_Secondly_Color: {r: 0.18142335, g: 0.8207547, b: 0, a: 0}
+    - _Elf_Shoe_Balls: {r: 1, g: 0, b: 0, a: 0}
+    - _Elf_Shoes: {r: 0.09803922, g: 0.44313726, b: 0, a: 0}
+    - _Elf_Skin_Color: {r: 0.81960785, g: 0.64705884, b: 0.6745098, a: 0}
     - _Santa_Bread_And_Hat: {r: 0.5377358, g: 0.5200756, b: 0.12428801, a: 0}
     - _Santa_Checks: {r: 0, g: 0.32882464, b: 0.7735849, a: 0}
     - _Santa_Ears: {r: 0.4581866, g: 0.8113208, b: 0, a: 0}
@@ -85,7 +85,7 @@ Material:
     - _Santa_Eyes_Inner: {r: 0.8687206, g: 1, b: 0.6556604, a: 0}
     - _Santa_Face_Color: {r: 1, g: 0.0107850125, b: 0, a: 0}
     - _Santa_Hands: {r: 0.7590775, g: 0, b: 0.9245283, a: 0}
-    - _Santa_Main_Arm_Color: {r: 0, g: 1, b: 0.010393143, a: 0}
+    - _Santa_Main_Arm_Color: {r: 0, g: 1, b: 0.011764765, a: 0}
     - _Santa_Main_Body_Color: {r: 0.07971394, g: 1, b: 0, a: 0}
     - _Santa_Nose: {r: 1, g: 0.9139734, b: 0.6179246, a: 0}
     - _Santa_Red_Part_Of_Hat: {r: 0.81982994, g: 1, b: 0.3160377, a: 0}
