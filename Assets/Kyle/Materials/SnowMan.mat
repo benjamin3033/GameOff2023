@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2749764444360699011
+--- !u!114 &-5456482277105912090
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Big Present
-  m_Shader: {fileID: -6465566751694194690, guid: 2be36dbe50f368a4ab8a9509f1080f42,
+  m_Name: SnowMan
+  m_Shader: {fileID: -6465566751694194690, guid: af070e9933608eb4aa609d703fb1e235,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -37,7 +37,11 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2D_982ba8d6f6694a12b2687d19b96428e0_Texture_1_Texture2D:
+    - _SampleTexture2D_551d18fbbcbb48bcac8e90a3cd97f7a9_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 6b776fc8817a3ba4ab5bacbc82623f80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_6dac3c866b2a4e828f7f781ccdd0398a_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 6b776fc8817a3ba4ab5bacbc82623f80, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -58,11 +62,20 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Bow_Ribbon: {r: 1, g: 0.21097527, b: 0, a: 0}
-    - _Gold_Side_Riden: {r: 1, g: 0, b: 0.23735619, a: 0}
-    - _Main_Present: {r: 0.05724907, g: 0, b: 1, a: 0}
-    - _Nonthing: {r: 1, g: 0, b: 0.74655247, a: 0}
-    - _Present_Ribbon: {r: 1, g: 0.903204, b: 0, a: 0}
-    - _Present_Ripping_Paper_Main: {r: 1, g: 0.7406687, b: 0, a: 0}
-    - _Present_Ripping_Paper_Secondary: {r: 0, g: 0.0172863, b: 1, a: 0}
+    - _Elf_Arms: {r: 0.5900956, g: 0.6415094, b: 0.09380559, a: 0}
+    - _Elf_Belt: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Belt_Color: {r: 1, g: 0.12189167, b: 0, a: 0}
+    - _Elf_Belt_Pices_and_Legs: {r: 0.24372905, g: 1, b: 0, a: 0}
+    - _Elf_Body_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Eye_Color_Main: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Face_Check: {r: 0, g: 0.9218221, b: 1, a: 0}
+    - _Elf_Hat_Base_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Middle_Eye_Color: {r: 0.7147212, g: 0, b: 1, a: 0}
+    - _Elf_Noses_Colors: {r: 0.36561048, g: 0.42503026, b: 0.9811321, a: 0}
+    - _Elf_Second_Hat_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Elf_Secondly_Color: {r: 0.9140397, g: 1, b: 0, a: 0}
+    - _Elf_Shoe_Balls: {r: 1, g: 1, b: 1, a: 0}
+    - _Elf_Shoes: {r: 0.16938525, g: 0.5471698, b: 0.07484869, a: 0}
+    - _Elf_Skin_Color: {r: 1, g: 0, b: 0.079694726, a: 0}
+    - _Santa_Main_Arm_Color: {r: 1, g: 0, b: 0.51669216, a: 0}
   m_BuildTextureStacks: []
