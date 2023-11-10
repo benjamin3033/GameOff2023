@@ -72,6 +72,9 @@ public class GameController : MonoBehaviour
         SmokeSphere.SetActive(false);
         Floor.SetActive(false);
         ChangeCamera();
+        
+
+        yield return new WaitForSeconds(2);
         StartEnemies();
         CanPlayerMove = true;
     }
