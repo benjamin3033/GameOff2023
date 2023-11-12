@@ -12,8 +12,6 @@ public class Projectile : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log(weapon.chosenProjectileType);
-
         switch(weapon.chosenProjectileType)
         {
             case WeaponSO.ProjectileType.Basic:

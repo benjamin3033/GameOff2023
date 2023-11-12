@@ -183,6 +183,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2218335617078382295, guid: aadbdcfa850ca4a46803c3a0d9783a65,
         type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2218335617078382295, guid: aadbdcfa850ca4a46803c3a0d9783a65,
+        type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
@@ -206,6 +211,11 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4363138019941831305, guid: aadbdcfa850ca4a46803c3a0d9783a65,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3767e6a73b174a84f92759c62901bfd4, type: 2}
     - target: {fileID: 6170223898140061443, guid: aadbdcfa850ca4a46803c3a0d9783a65,
         type: 3}
       propertyPath: m_Name
@@ -881,6 +891,7 @@ MonoBehaviour:
   MilkValueMin: 8
   MaxMilk: 100
   CanPlayerMove: 0
+  GamePaused: 0
 --- !u!114 &574204027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -893,11 +904,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d8fda7b8d726f446a2f7235a7cc6056, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waveOptions:
+  - time: 1
+    amount: 10
+    radius: 30
+    HealthRange: {x: 1, y: 1}
+    DamageRange: {x: 1, y: 1}
+    enemySO: {fileID: 11400000, guid: 540d3606717533f41bfccb6d1cffa90d, type: 2}
+    Option: 0
+  - time: 10
+    amount: 10
+    radius: 30
+    HealthRange: {x: 1, y: 1}
+    DamageRange: {x: 1, y: 1}
+    enemySO: {fileID: 11400000, guid: 540d3606717533f41bfccb6d1cffa90d, type: 2}
+    Option: 0
+  - time: 20
+    amount: 10
+    radius: 30
+    HealthRange: {x: 1, y: 1}
+    DamageRange: {x: 1, y: 1}
+    enemySO: {fileID: 11400000, guid: 540d3606717533f41bfccb6d1cffa90d, type: 2}
+    Option: 0
   enemySpawner: {fileID: 574204028}
-  enemyTypes:
-  - {fileID: 11400000, guid: 540d3606717533f41bfccb6d1cffa90d, type: 2}
-  AmountToSpawn: 30
-  radius: 30
+  timer: 0
 --- !u!114 &574204028
 MonoBehaviour:
   m_ObjectHideFlags: 0
