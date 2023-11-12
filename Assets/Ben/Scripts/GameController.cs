@@ -39,6 +39,7 @@ public class GameController : MonoBehaviour
     [SerializeField] float MaxMilk = 100;
 
     public bool CanPlayerMove = false;
+    public bool GamePaused = false;
 
     private void OnEnable()
     {
@@ -101,7 +102,7 @@ public class GameController : MonoBehaviour
 
     private void StartEnemies()
     {
-        enemyWaveController.SpawnWave();
+        enemyWaveController.StartWaves();
         InvokeRepeating(nameof(UpdateEnemiesPlayerPosition), 0, 0.5f);
     }
 
