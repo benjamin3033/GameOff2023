@@ -1,4 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
-    <Style src="project://database/Assets/Ben/UI%20TK/EnemyWave.uss?fileID=7433441132597879392&amp;guid=1b79845378db55741be759a6c602822c&amp;type=3#EnemyWave" />
-    <uie:PropertyField binding-path="waveOptions" />
-</ui:UXML>

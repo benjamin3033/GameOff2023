@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1444040826107394710}
   - component: {fileID: 432257867902866065}
+  - component: {fileID: 5828691529972311444}
   m_Layer: 0
   m_Name: Christmas Tree 5
   m_TagString: Untagged
@@ -64,6 +65,22 @@ CapsuleCollider:
   m_Height: 2.5362966
   m_Direction: 1
   m_Center: {x: 0, y: 1.2583114, z: 0}
+--- !u!208 &5828691529972311444
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5135116051907227007}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 1, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &752522185731741908
 PrefabInstance:
   m_ObjectHideFlags: 0

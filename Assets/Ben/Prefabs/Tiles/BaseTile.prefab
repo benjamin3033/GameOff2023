@@ -12,12 +12,13 @@ GameObject:
   - component: {fileID: 6309877226259712530}
   - component: {fileID: 2090302588350302060}
   - component: {fileID: 5549557251936695874}
+  - component: {fileID: 1585855123652216617}
   m_Layer: 9
   m_Name: BaseTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7363818636598627433
 Transform:
@@ -105,3 +106,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10, y: 0.20239903, z: 10}
   m_Center: {x: 0, y: -0.101199515, z: 0}
+--- !u!114 &1585855123652216617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3265747554029307776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ed56fbad6735c04db0b6d9724361ffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderers:
+  - {fileID: 2090302588350302060}
