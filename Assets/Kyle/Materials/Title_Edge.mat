@@ -45,13 +45,13 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Bottom: {r: 0.002491996, g: 0.4329988, b: 0.5283019, a: 1}
-    - _Bottom_Middle: {r: 0.015129937, g: 0.5304274, b: 0.6415094, a: 1}
+    - _Bottom: {r: 0.09760284, g: 0.74625176, b: 0.8867924, a: 1}
+    - _Bottom_Middle: {r: 0.06686832, g: 0.77425444, b: 0.9245283, a: 1}
     - _Bottom_Of_Cookie: {r: 1, g: 0.7322525, b: 0, a: 0}
     - _Chocolate: {r: 1, g: 0.7929859, b: 0, a: 0}
     - _Side_Of_Cookie: {r: 1, g: 0, b: 0.15322685, a: 0}
-    - _Top: {r: 0, g: 0.8226874, b: 1, a: 0}
-    - _Top_Middle: {r: 0.012682426, g: 0.7395389, b: 0.8962264, a: 1}
+    - _Top: {r: 0, g: 0.8226874, b: 1, a: 1}
+    - _Top_Middle: {r: 0.04236374, g: 0.7999291, b: 0.9622642, a: 1}
     - _Top_Of_Cookie: {r: 1, g: 0.28773582, b: 0.28773582, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &4482698933710362890

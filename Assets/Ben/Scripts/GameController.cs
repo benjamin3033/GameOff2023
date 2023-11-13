@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using DG.Tweening;
 using TMPro;
@@ -9,8 +10,13 @@ public class GameController : MonoBehaviour
 {
     public static GameController Instance;
 
+    [Header("Current Values")]
     public int CookiesCollected = 0;
     public float CurrentMilk = 0;
+    public int CurrentHealth = 100;
+
+    [Header("Player Stats")]
+    public int MaxHealth = 100;
 
     [Header("Prefabs")]
     [SerializeField] GameObject Cookie;
@@ -32,7 +38,7 @@ public class GameController : MonoBehaviour
     [SerializeField] GameObject Floor;
     [SerializeField] GameObject SmokeSphere;
 
-    [Header("Stats")]
+    [Header("Milk")]
     [SerializeField] int MilkChance = 10;
     [SerializeField] float MilkValueMax = 10;
     [SerializeField] float MilkValueMin = 1;
@@ -40,6 +46,8 @@ public class GameController : MonoBehaviour
 
     public bool CanPlayerMove = false;
     public bool GamePaused = false;
+
+    public Action<int> PlayerHealthChanged;
 
     private void OnEnable()
     {
@@ -56,6 +64,23 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         MilkMeterSlider.maxValue = MaxMilk;
+    }
+
+    public void ChangeHealth(int amount)
+    {
+        CurrentHealth += amount;
+
+        if(CurrentHealth > MaxHealth)
+        {
+            CurrentHealth = MaxHealth;
+        }
+
+        if(CurrentHealth <= 0)
+        {
+            // Game Over
+        }
+
+        PlayerHealthChanged?.Invoke(CurrentHealth);
     }
 
     public IEnumerator StartLevel()
@@ -126,8 +151,8 @@ public class GameController : MonoBehaviour
 
     public void SpawnMilk(Vector3 position)
     {
-        int randomNumber = Random.Range(1, MilkChance);
-        float randomValue = Random.Range(MilkValueMin, MilkValueMax);
+        int randomNumber = UnityEngine.Random.Range(1, MilkChance);
+        float randomValue = UnityEngine.Random.Range(MilkValueMin, MilkValueMax);
 
         if(randomNumber == 1)
         {

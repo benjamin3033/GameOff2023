@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1414933872052594016}
   - component: {fileID: 4408742935354761170}
+  - component: {fileID: 5279783079195494444}
   m_Layer: 0
   m_Name: SnowBall Tower
   m_TagString: Untagged
@@ -54,6 +55,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.9487339, z: 1}
   m_Center: {x: 0, y: 0.39380187, z: 0}
+--- !u!208 &5279783079195494444
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9149712019732186105}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 0.68, y: 1, z: 0.68}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &359989383450601090
 PrefabInstance:
   m_ObjectHideFlags: 0
