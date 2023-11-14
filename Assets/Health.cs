@@ -18,6 +18,12 @@ public class Health : MonoBehaviour
         GameController.Instance.PlayerHealthChanged -= HealthChanged;
     }
 
+    private void Start()
+    {
+        healthSlider.maxValue = GameController.Instance.MaxHealth;
+        healthSlider.value = GameController.Instance.MaxHealth;
+    }
+
     private void HealthChanged(int newValue)
     {
         healthSlider.value = newValue;

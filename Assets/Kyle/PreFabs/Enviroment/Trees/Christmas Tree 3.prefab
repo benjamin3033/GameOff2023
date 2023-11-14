@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 996391882685380418}
   - component: {fileID: 1430910358484834573}
   - component: {fileID: 1257641774823831704}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Christmas Tree 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -669,6 +669,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Christmas Tree 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 09ea92f65ba775f49801f01654fc30cd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

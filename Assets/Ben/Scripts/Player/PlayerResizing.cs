@@ -43,7 +43,7 @@ public class PlayerResizing : MonoBehaviour
 
             foreach (RaycastHit hit in hits)
             {
-                if (hit.transform.TryGetComponent<Enemy>(out Enemy enemyComponent))
+                if (hit.transform.TryGetComponent<EnemyAI>(out EnemyAI enemyComponent))
                 {
                     enemyComponent.ExplodeAwayFromPlayer(transform.position, ExplosionForce, UpwardMultiplyer, 5);
                 }

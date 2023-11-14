@@ -54,7 +54,7 @@ public class WaveOption
 
             if (EnemyWaveController.IsRoomToSpawn(spawnPosition, 0.5f))
             {
-                enemySpawner.SpawnNewEnemy(enemySO, spawnPosition);
+                enemySpawner.SpawnNewEnemy(enemySO, spawnPosition, this);
             }
         }
     }

@@ -1,22 +1,15 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
     private float Health = 1;
-    [SerializeField] EnemySO enemySO;
+    public int Damage = 1;
+    public EnemySO enemySO;
     [SerializeField] Transform Visual;
-    [SerializeField] Rigidbody rb;
-    [SerializeField] NavMeshAgent agent;
-    public Action<EnemyAI> EnemyDied;
 
-    private void Start()
-    {
-        Health = enemySO.Health;
-    }
+    public Action<EnemyAI> EnemyDied;
 
     public void TakeDamage(int amount)
     {
@@ -24,25 +17,10 @@ public class Enemy : MonoBehaviour
         if(Health <= 0) { KillEnemy(); }
     }
 
-    public void ExplodeAwayFromPlayer(Vector3 explosionPoint, float explosionForce, float upwardMultiplyer, float MoveAgain)
+    public void UpdateStats(WaveOption stats)
     {
-        StartCoroutine(ExplodeAway(explosionPoint, explosionForce, upwardMultiplyer, MoveAgain));
-    }
-
-    IEnumerator ExplodeAway(Vector3 explosionPoint, float explosionForce, float upwardMultiplyer, float MoveAgain)
-    {
-        agent.enabled = false;
-        rb.isKinematic = false;
-
-        Vector3 direction = transform.position - explosionPoint;
-        direction.Normalize();
-        direction += Vector3.up * upwardMultiplyer;
-        rb.AddForce(direction * explosionForce, ForceMode.Impulse);
-
-        yield return new WaitForSeconds(MoveAgain);
-
-        rb.isKinematic = true;
-        agent.enabled = true;
+        Health = UnityEngine.Random.Range(stats.HealthRange.x, stats.HealthRange.y);
+        Damage = UnityEngine.Random.Range((int)stats.DamageRange.x, (int)stats.DamageRange.y);
     }
 
     private void KillEnemy()

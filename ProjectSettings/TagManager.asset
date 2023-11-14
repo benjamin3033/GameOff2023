@@ -15,8 +15,8 @@ TagManager:
   - PlayerProjectile
   - EnemyProjectile
   - Floor
-  - 
-  - 
+  - EnviromentProp
+  - Collectable
   - 
   - 
   - 

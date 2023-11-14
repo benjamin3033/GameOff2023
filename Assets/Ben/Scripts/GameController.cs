@@ -68,6 +68,8 @@ public class GameController : MonoBehaviour
 
     public void ChangeHealth(int amount)
     {
+        //Debug.Log("Amount: " + " | " + "Changed: " + (CurrentHealth + amount)) ;
+
         CurrentHealth += amount;
 
         if(CurrentHealth > MaxHealth)

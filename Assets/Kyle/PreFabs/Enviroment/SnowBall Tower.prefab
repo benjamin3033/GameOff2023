@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1414933872052594016}
   - component: {fileID: 4408742935354761170}
   - component: {fileID: 5279783079195494444}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SnowBall Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138,6 +138,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SnowBall Tower
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ad0aa1468532a5c4d8b0c7e24424d165,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

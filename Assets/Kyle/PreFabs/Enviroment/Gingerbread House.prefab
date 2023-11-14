@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 550600327750399446}
   - component: {fileID: 750231344856737690}
   - component: {fileID: 7985469160059056424}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gingerbread House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138,6 +138,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GingerBread House
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d2855b9b70390864abcaded611ef7931,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
