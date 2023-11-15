@@ -23,7 +23,7 @@ public class GameController : MonoBehaviour
     [SerializeField] Milk Milk;
 
     [Header("References")]
-    [SerializeField] Transform Player;
+    public Transform Player;
     [SerializeField] EnemySpawner enemySpawner;
     [SerializeField] LevelTileController levelTileController;
     [SerializeField] EnemyWaveController enemyWaveController;
@@ -32,6 +32,7 @@ public class GameController : MonoBehaviour
     [SerializeField] TMP_Text CookiesText;
     [SerializeField] GameObject TopDownCamera;
     [SerializeField] GameObject MenuCamera;
+    [SerializeField] GameObject GameOverMenu;
 
     [Header("Start Level Refs")]
     [SerializeField] GameObject Wall;
@@ -79,10 +80,17 @@ public class GameController : MonoBehaviour
 
         if(CurrentHealth <= 0)
         {
-            // Game Over
+            PlayerDied();
         }
 
         PlayerHealthChanged?.Invoke(CurrentHealth);
+    }
+
+    private void PlayerDied()
+    {
+        GameOverMenu.SetActive(true);
+        CanPlayerMove = false;
+        GamePaused = true;
     }
 
     public IEnumerator StartLevel()
@@ -100,9 +108,6 @@ public class GameController : MonoBehaviour
         SmokeSphere.SetActive(false);
         Floor.SetActive(false);
         ChangeCamera();
-        
-
-        yield return new WaitForSeconds(2);
         StartEnemies();
         CanPlayerMove = true;
     }

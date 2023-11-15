@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
         inputHandler.moveEvent -= MovementInput;
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         HandleMovement();
     }

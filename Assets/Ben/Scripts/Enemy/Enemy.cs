@@ -7,7 +7,8 @@ public class Enemy : MonoBehaviour
     private float Health = 1;
     public int Damage = 1;
     public EnemySO enemySO;
-    [SerializeField] Transform Visual;
+    public Transform Visual;
+    public TileOcclusion occlusion;
 
     public Action<EnemyAI> EnemyDied;
 

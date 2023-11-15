@@ -62,7 +62,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Arms_Color: {r: 0.41509432, g: 0.16251333, b: 0.18232355, a: 0}
+    - _Arms_Color: {r: 0.5686275, g: 0.36862746, b: 0.21176472, a: 0}
     - _Botton_Colors: {r: 0, g: 0, b: 0, a: 0}
     - _Elf_Arms: {r: 0.5900956, g: 0.6415094, b: 0.09380559, a: 0}
     - _Elf_Belt: {r: 0, g: 0, b: 0, a: 0}
@@ -81,8 +81,8 @@ Material:
     - _Elf_Skin_Color: {r: 0.3504361, g: 0.36608464, b: 0.4245283, a: 0}
     - _Hat_Main_Color: {r: 0, g: 0, b: 0, a: 0}
     - _Hat_Secondarly_Color: {r: 1, g: 0, b: 0, a: 0}
-    - _Nose: {r: 1, g: 0.28841394, b: 0, a: 0}
+    - _Nose: {r: 0.9490197, g: 0.5803922, b: 0, a: 0}
     - _Santa_Main_Arm_Color: {r: 1, g: 0, b: 0.51669216, a: 0}
-    - _Scarf_Color: {r: 0.91540945, g: 1, b: 0, a: 0}
+    - _Scarf_Color: {r: 1, g: 0, b: 0, a: 0}
     - _Snow_Color: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []

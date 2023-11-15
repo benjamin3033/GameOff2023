@@ -11,12 +11,24 @@ public class EnemySpawner : MonoBehaviour
     public void SpawnNewEnemy(EnemySO enemyType, Vector3 spawnPosition, WaveOption waveOption)
     {
         EnemyAI enemyInstance = Instantiate(EnemyPrefab);
-        enemies.Add(enemyInstance);
-        enemyInstance.transform.position = spawnPosition;
-        enemyInstance.enemySO = enemyType;
-        enemyInstance.GetComponent<Enemy>().EnemyDied += OnEnemyDeath;
+        GameObject enemyVisual = Instantiate(enemyType.Visual, enemyInstance.transform);
+        Enemy enemy = enemyInstance.GetComponent<Enemy>();
 
-        enemyInstance.GetComponent<Enemy>().UpdateStats(waveOption);
+        enemies.Add(enemyInstance);
+
+        enemyInstance.transform.position = spawnPosition;
+        enemyVisual.transform.localPosition = new Vector3(0, enemyType.VisualHeight, 0);
+        enemyVisual.transform.localRotation = Quaternion.Euler(enemyType.VisualRotation);
+
+        enemyInstance.enemySO = enemyType;
+        enemy.EnemyDied += OnEnemyDeath;
+        enemy.UpdateStats(waveOption);
+        
+        enemy.Visual = enemyVisual.transform;
+
+
+        enemy.GetComponent<SkinnedOcclusion>().renderers.Add(enemyVisual.GetComponentInChildren<SkinnedMeshRenderer>());
+        enemy.GetComponent<SkinnedOcclusion>().ShowRenderers(false);
     }
 
     private void OnEnemyDeath(EnemyAI aI)

@@ -25,9 +25,9 @@ public class PlayerResizing : MonoBehaviour
 
     private void ResizeInput()
     {
-#if UNITY_EDITOR
+        if (GameController.Instance.CurrentHealth < 100) { return; }
+
         ResizePlayer();
-#endif
     }
 
     public void ResizePlayer()

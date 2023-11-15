@@ -6,6 +6,10 @@ using UnityEngine.AI;
 [CreateAssetMenu()]
 public class EnemySO : ScriptableObject
 {
+    public GameObject Visual;
+    public float VisualHeight;
+    public Vector3 VisualRotation;
+
     public int NavMeshAgentType;
 
     [Header("Steering")]
