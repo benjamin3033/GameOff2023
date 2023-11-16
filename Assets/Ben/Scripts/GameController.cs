@@ -10,6 +10,8 @@ public class GameController : MonoBehaviour
 {
     public static GameController Instance;
 
+    public LevelSO levelSO;
+
     [Header("Current Values")]
     public int CookiesCollected = 0;
     public float CurrentMilk = 0;
@@ -33,6 +35,8 @@ public class GameController : MonoBehaviour
     [SerializeField] GameObject TopDownCamera;
     [SerializeField] GameObject MenuCamera;
     [SerializeField] GameObject GameOverMenu;
+    [SerializeField] GameObject Overlay;
+    [SerializeField] Image FadeToWhite;
 
     [Header("Start Level Refs")]
     [SerializeField] GameObject Wall;
@@ -91,25 +95,32 @@ public class GameController : MonoBehaviour
         GameOverMenu.SetActive(true);
         CanPlayerMove = false;
         GamePaused = true;
+        Overlay.SetActive(false);
     }
 
     public IEnumerator StartLevel()
     {
         Wall.transform.DOMoveY(Wall.transform.position.y + 10, 1)
             .OnComplete(() => 
-            { 
-                SetupLevel(); 
-                
+            {
+                FadeToWhite.DOFade(1, 0.5f).OnComplete(() => {
+                    Wall.SetActive(false);
+                    SmokeSphere.SetActive(false);
+                    Floor.SetActive(false);
+                    SetupLevel();
+                });
             });
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(2.5f);
+
+        FadeToWhite.DOFade(0, 0.5f);
+
         Player.GetComponent<Rigidbody>().isKinematic = false;
-        Wall.SetActive(false);
-        SmokeSphere.SetActive(false);
-        Floor.SetActive(false);
+        CanPlayerMove = true;
+
         ChangeCamera();
         StartEnemies();
-        CanPlayerMove = true;
+        Overlay.SetActive(true);
     }
 
     private void ChangeCamera()
@@ -150,22 +161,26 @@ public class GameController : MonoBehaviour
         MilkMeterSlider.value = CurrentMilk;
     }
 
-    public void SpawnCookie(Vector3 position)
+    private void SpawnCookie(Vector3 position)
     {
         GameObject cookieInstance = Instantiate(Cookie);
         cookieInstance.transform.position = position;
     }
 
-    public void SpawnMilk(Vector3 position)
+    public void EnemyDied(Vector3 position)
     {
         int randomNumber = UnityEngine.Random.Range(1, MilkChance);
         float randomValue = UnityEngine.Random.Range(MilkValueMin, MilkValueMax);
 
-        if(randomNumber == 1)
+        if (randomNumber == 1)
         {
             Milk milkInstance = Instantiate(Milk);
             milkInstance.transform.position = position;
             milkInstance.MilkValue = randomValue;
+        }
+        else
+        {
+            SpawnCookie(position);
         }
     }
 

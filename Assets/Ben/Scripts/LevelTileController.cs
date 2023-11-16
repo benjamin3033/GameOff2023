@@ -4,13 +4,9 @@ using UnityEngine;
 
 public class LevelTileController : MonoBehaviour
 {
-    [SerializeField] int numRows = 5;
-    [SerializeField] int numCols = 5;
-    [SerializeField] float spacing = 10f;
+    private LevelSO levelSO;
 
-    [SerializeField] List<TileWithChange> TilePrefab = new();
-    [SerializeField] GameObject edgeTilePrefab;
-    [SerializeField] GameObject centerTilePrefab;
+    
 
     [Serializable]
     public class TileWithChange
@@ -19,29 +15,34 @@ public class LevelTileController : MonoBehaviour
         public float chance;
     }
 
+    private void Start()
+    {
+        levelSO = GameController.Instance.levelSO;
+    }
+
     public void GenerateGrid()
     {
-        for (int row = 0; row < numRows; row++)
+        for (int row = 0; row < levelSO.numRows; row++)
         {
-            for (int col = 0; col < numCols; col++)
+            for (int col = 0; col < levelSO.numCols; col++)
             {
                 Vector3 position = new Vector3(
-                    col * spacing - (numCols - 1) * spacing * 0.5f,
+                    col * levelSO.spacing - (levelSO.numCols - 1) * levelSO.spacing * 0.5f,
                     0,
-                    row * spacing - (numRows - 1) * spacing * 0.5f
+                    row * levelSO.spacing - (levelSO.numRows - 1) * levelSO.spacing * 0.5f
                 ) + transform.position;
 
                 GameObject tilePrefab;
 
-                if (row == 0 || row == numRows - 1 || col == 0 || col == numCols - 1)
+                if (row == 0 || row == levelSO.numRows - 1 || col == 0 || col == levelSO.numCols - 1)
                 {
                     // Edge tile
-                    tilePrefab = edgeTilePrefab;
+                    tilePrefab = levelSO.edgeTilePrefab;
                 }
-                else if (row == numRows / 2 && col == numCols / 2)
+                else if (row == levelSO.numRows / 2 && col == levelSO.numCols / 2)
                 {
                     // Center tile
-                    tilePrefab = centerTilePrefab;
+                    tilePrefab = levelSO.centerTilePrefab;
                 }
                 else
                 {
@@ -58,14 +59,14 @@ public class LevelTileController : MonoBehaviour
     {
         float totalChances = 0;
 
-        foreach (var gameObjectChance in TilePrefab)
+        foreach (var gameObjectChance in levelSO.TilePrefab)
         {
             totalChances += gameObjectChance.chance;
         }
 
         float randomValue = UnityEngine.Random.Range(0, totalChances);
 
-        foreach (var gameObjectChance in TilePrefab)
+        foreach (var gameObjectChance in levelSO.TilePrefab)
         {
             if (randomValue < gameObjectChance.chance)
             {
@@ -76,6 +77,6 @@ public class LevelTileController : MonoBehaviour
         }
 
         // Fallback in case of errors or if the chances do not add up to 1
-        return TilePrefab[0].tile;
+        return levelSO.TilePrefab[0].tile;
     }
 }

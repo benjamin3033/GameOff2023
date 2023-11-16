@@ -3,19 +3,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using static Cinemachine.DocumentationSortingAttribute;
 
 
 public class EnemyWaveController : MonoBehaviour
 {
-    public List<WaveOption> waveOptions = new List<WaveOption>();
+    private List<WaveOption> waveOptions = new List<WaveOption>();
     [SerializeField] EnemySpawner enemySpawner;
-
+    private LevelSO levelSO;
     [SerializeField] float timer = 0;
     bool levelStarted = false;
 
     public void StartWaves()
     {
+        levelSO = GameController.Instance.levelSO;
         levelStarted = true;
+        waveOptions = levelSO.waveOptions;
     }
 
     private void Update()

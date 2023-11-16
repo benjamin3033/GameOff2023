@@ -30,8 +30,8 @@ public class Enemy : MonoBehaviour
         Visual.localRotation = Quaternion.Euler(0, -90, 90);
         Visual.parent = null;
 
-        GameController.Instance.SpawnCookie(transform.position);
-        GameController.Instance.SpawnMilk(transform.position);
+        GameController.Instance.EnemyDied(transform.position);
+        
 
         Destroy(gameObject);
     }
