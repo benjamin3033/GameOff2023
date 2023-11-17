@@ -33,15 +33,13 @@ public class GameController : MonoBehaviour
     [SerializeField] Slider MilkMeterSlider;
     [SerializeField] TMP_Text CookiesText;
     [SerializeField] GameObject TopDownCamera;
-    [SerializeField] GameObject MenuCamera;
+    [SerializeField] GameObject PlayMenuCamera;
     [SerializeField] GameObject GameOverMenu;
     [SerializeField] GameObject Overlay;
     [SerializeField] Image FadeToWhite;
 
     [Header("Start Level Refs")]
-    [SerializeField] GameObject Wall;
-    [SerializeField] GameObject Floor;
-    [SerializeField] GameObject SmokeSphere;
+    [SerializeField] GameObject SpawnArea;
 
     [Header("Milk")]
     [SerializeField] int MilkChance = 10;
@@ -100,18 +98,12 @@ public class GameController : MonoBehaviour
 
     public IEnumerator StartLevel()
     {
-        Wall.transform.DOMoveY(Wall.transform.position.y + 10, 1)
-            .OnComplete(() => 
-            {
-                FadeToWhite.DOFade(1, 0.5f).OnComplete(() => {
-                    Wall.SetActive(false);
-                    SmokeSphere.SetActive(false);
-                    Floor.SetActive(false);
-                    SetupLevel();
-                });
-            });
+        FadeToWhite.DOFade(1, 0.5f).OnComplete(() => {
+            SpawnArea.SetActive(false);
+            SetupLevel();
+        });
 
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(1f);
 
         FadeToWhite.DOFade(0, 0.5f);
 
@@ -125,16 +117,28 @@ public class GameController : MonoBehaviour
 
     private void ChangeCamera()
     {
-        if(MenuCamera.activeSelf)
+        if(PlayMenuCamera.activeSelf)
         {
-            MenuCamera.SetActive(false);
+            PlayMenuCamera.SetActive(false);
             TopDownCamera.SetActive(true);
         }
         else
         {
-            MenuCamera.SetActive(true);
+            PlayMenuCamera.SetActive(true);
             TopDownCamera.SetActive(false);
         }
+    }
+
+    public void ChooseWeapon(WeaponSO chosenWeapon)
+    {
+        Player.GetComponent<PlayerShooting>().currentWeapon = chosenWeapon;
+        
+    }
+
+    public void ChooseLevel(LevelSO level)
+    {
+        levelSO = level;
+        StartCoroutine(StartLevel());
     }
 
     private void SetupLevel()

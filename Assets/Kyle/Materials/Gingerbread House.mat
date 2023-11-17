@@ -49,6 +49,9 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
+    - _Bottom_Cimney: {r: 0, g: 0, b: 0, a: 0}
+    - _Chimney: {r: 0.64705884, g: 0.4039216, b: 0.15294118, a: 0}
+    - _Door: {r: 0.46226418, g: 0.25774345, b: 0.046517115, a: 0}
     - _Gun_Handel: {r: 0, g: 0, b: 0, a: 0}
     - _Gun_Part_1: {r: 0, g: 0, b: 0, a: 0}
     - _Gun_Part_2: {r: 0, g: 0, b: 0, a: 0}
@@ -56,6 +59,18 @@ Material:
     - _Gun_Part_4: {r: 0, g: 0, b: 0, a: 0}
     - _Gun_Part_5: {r: 0, g: 0, b: 0, a: 0}
     - _Gun_Part_6: {r: 0, g: 0, b: 0, a: 0}
+    - _Heart: {r: 0.9333334, g: 0.63529414, b: 0.7254902, a: 0}
+    - _House: {r: 0.64705884, g: 0.4039216, b: 0.15294118, a: 0}
+    - _InSide_Chimney: {r: 0.254717, g: 0.16682346, b: 0.07609468, a: 0}
+    - _Nothing_1: {r: 0, g: 0, b: 0, a: 0}
+    - _Nothing_2: {r: 0, g: 0, b: 0, a: 0}
+    - _Nothing_3: {r: 0, g: 0, b: 0, a: 0}
+    - _Nothing_4: {r: 0, g: 0, b: 0, a: 0}
+    - _Nothing_5: {r: 0, g: 0, b: 0, a: 0}
+    - _Nothing_6: {r: 0, g: 0, b: 0, a: 0}
+    - _Nothing_7: {r: 0, g: 0, b: 0, a: 0}
+    - _Nothing_8: {r: 0, g: 0, b: 0, a: 0}
+    - _Nothing_9: {r: 0, g: 0, b: 0, a: 0}
     - _Present_1_Ribbon: {r: 0.9140397, g: 1, b: 0, a: 0}
     - _Present_1_Ripping_Paper_Main: {r: 1, g: 0, b: 0.079694726, a: 0}
     - _Present_1_Ripping_Paper_Secondary: {r: 0, g: 0, b: 0, a: 0}
@@ -65,6 +80,7 @@ Material:
     - _Present_3_Ribbon: {r: 0, g: 0, b: 0, a: 0}
     - _Present_3_Ripping_Paper_Main: {r: 0, g: 0, b: 0, a: 0}
     - _Present_3_Ripping_Paper_Secondary: {r: 0, g: 0, b: 0, a: 0}
+    - _Roof: {r: 0.4716981, g: 0.2569221, b: 0.03856648, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7638574671881549716
 MonoBehaviour:

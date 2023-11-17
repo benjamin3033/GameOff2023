@@ -53,6 +53,7 @@ public class Projectile : MonoBehaviour
 
     public void SendProjectileInDirection(Vector3 direction)
     {
+        transform.forward = direction;
         rb.AddForce(direction);
         DestroyProjectile(weapon.ShotLifeTime);
     }

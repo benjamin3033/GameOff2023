@@ -9,6 +9,21 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Rip
     second: {fileID: 2100000, guid: f97f3e20e0c117d41a39b86345875072, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rip2
+    second: {fileID: 2100000, guid: 6c3203c7c33c30745bb35ad371e7e3a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rip3
+    second: {fileID: 2100000, guid: dd5e67693275e01438d9150cad4b04f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rip4
+    second: {fileID: 2100000, guid: 985e223d34c43f34ea8e483395134fc2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -14,21 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waveOptions:
   - time: 0
-    amount: 10
-    radius: 30
+    amount: 100
+    radius: 59
     HealthRange: {x: 1, y: 1}
     DamageRange: {x: 1, y: 1}
     enemySO: {fileID: 11400000, guid: 540d3606717533f41bfccb6d1cffa90d, type: 2}
     Option: 0
-  - time: 5
-    amount: 10
-    radius: 30
+  - time: 20
+    amount: 20
+    radius: 40
     HealthRange: {x: 1, y: 1}
     DamageRange: {x: 1, y: 1}
     enemySO: {fileID: 11400000, guid: 24e9bf8814859d844948c7e28fe6b05b, type: 2}
-    Option: 0
-  numRows: 10
-  numCols: 10
+    Option: 1
+  - time: 20
+    amount: 20
+    radius: 40
+    HealthRange: {x: 1, y: 1}
+    DamageRange: {x: 1, y: 1}
+    enemySO: {fileID: 11400000, guid: 24e9bf8814859d844948c7e28fe6b05b, type: 2}
+    Option: 1
+  numRows: 50
+  numCols: 50
   spacing: 20
   TilePrefab:
   - tile: {fileID: 2314638382274059713, guid: 514617a5b631b1f4487b548f4f216435, type: 3}

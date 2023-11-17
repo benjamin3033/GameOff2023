@@ -9,15 +9,39 @@ public class MenuController : MonoBehaviour
     [SerializeField] Button PlayButton;
     [SerializeField] Button QuitButton;
 
+    [SerializeField] GameObject MainMenuCamera;
+    [SerializeField] GameObject PlayMenuCamera;
+
+    [SerializeField] GameObject WeaponCanvas;
+    [SerializeField] GameObject LevelCanvas;
+
     private void Start()
     {
-        PlayButton.onClick.AddListener(PlayGame);
+        PlayButton.onClick.AddListener(PressedPlayButton);
         QuitButton.onClick.AddListener(QuitGame);
     }
 
-    private void PlayGame()
+    private void PressedPlayButton()
     {
-        GameController.Instance.StartCoroutine(GameController.Instance.StartLevel());
+        MainMenuCamera.SetActive(false);
+        PlayMenuCamera.SetActive(true);
+    }
+
+    public void ChooseWeapon(WeaponSO weapon)
+    {
+        GameController.Instance.ChooseWeapon(weapon);
+        SwitchToLevelSelection();
+    }
+
+    public void SwitchToLevelSelection()
+    {
+        WeaponCanvas.SetActive(false);
+        LevelCanvas.SetActive(true);
+    }
+
+    public void ChooseLevel(LevelSO level)
+    {
+        GameController.Instance.ChooseLevel(level);
     }
 
     private void QuitGame()

@@ -18,7 +18,7 @@ public class EnemyWaveController : MonoBehaviour
     {
         levelSO = GameController.Instance.levelSO;
         levelStarted = true;
-        waveOptions = levelSO.waveOptions;
+        waveOptions.AddRange(levelSO.waveOptions);
     }
 
     private void Update()

@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerShooting : MonoBehaviour
 {
     [SerializeField] InputHandler input;
-    [SerializeField] WeaponSO currentWeapon;
+    [HideInInspector] public WeaponSO currentWeapon;
 
     bool canShoot = true;
 
