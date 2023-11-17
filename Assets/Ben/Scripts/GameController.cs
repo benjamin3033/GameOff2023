@@ -48,9 +48,12 @@ public class GameController : MonoBehaviour
     [SerializeField] float MaxMilk = 100;
 
     public bool CanPlayerMove = false;
+    public bool LevelStarted = false;
     public bool GamePaused = false;
 
     public Action<int> PlayerHealthChanged;
+
+    private float length;
 
     private void OnEnable()
     {
@@ -67,12 +70,11 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         MilkMeterSlider.maxValue = MaxMilk;
+        length = levelSO.length;
     }
 
     public void ChangeHealth(int amount)
     {
-        //Debug.Log("Amount: " + " | " + "Changed: " + (CurrentHealth + amount)) ;
-
         CurrentHealth += amount;
 
         if(CurrentHealth > MaxHealth)

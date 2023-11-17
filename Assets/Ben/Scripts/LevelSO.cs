@@ -17,4 +17,7 @@ public class LevelSO : ScriptableObject
     public List<TileWithChange> TilePrefab = new();
     public GameObject edgeTilePrefab;
     public GameObject centerTilePrefab;
+
+    [Header("Other")]
+    public float length;
 }

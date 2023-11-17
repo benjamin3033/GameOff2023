@@ -11,21 +11,15 @@ public class EnemyWaveController : MonoBehaviour
     private List<WaveOption> waveOptions = new List<WaveOption>();
     [SerializeField] EnemySpawner enemySpawner;
     private LevelSO levelSO;
-    [SerializeField] float timer = 0;
-    bool levelStarted = false;
 
     public void StartWaves()
     {
         levelSO = GameController.Instance.levelSO;
-        levelStarted = true;
         waveOptions.AddRange(levelSO.waveOptions);
     }
 
     private void Update()
     {
-        if (!levelStarted || GameController.Instance.GamePaused) { return; }
-
-        WaveTimer();
         SpawnerCheck();
     }
 
@@ -33,17 +27,12 @@ public class EnemyWaveController : MonoBehaviour
     {
         for (int i = 0; i < waveOptions.Count; i++)
         {
-            if (timer > waveOptions[i].time)
+            if (LevelTimer.Instance.GetCurrentTime() > waveOptions[i].time)
             {
                 waveOptions[i].SpawnWave(enemySpawner);
                 waveOptions.RemoveAt(i);
             }
         }
-    }
-
-    private void WaveTimer()
-    {
-        timer += Time.deltaTime;
     }
 
     public static bool IsRoomToSpawn(Vector3 position, float radius)
