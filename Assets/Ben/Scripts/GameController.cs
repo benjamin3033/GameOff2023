@@ -47,9 +47,9 @@ public class GameController : MonoBehaviour
     [SerializeField] float MilkValueMin = 1;
     [SerializeField] float MaxMilk = 100;
 
-    public bool CanPlayerMove = false;
-    public bool LevelStarted = false;
-    public bool GamePaused = false;
+    [HideInInspector] public bool CanPlayerMove = false;
+    [HideInInspector] public bool LevelStarted = false;
+    [HideInInspector] public bool GamePaused = false;
 
     public Action<int> PlayerHealthChanged;
 
@@ -111,7 +111,7 @@ public class GameController : MonoBehaviour
 
         Player.GetComponent<Rigidbody>().isKinematic = false;
         CanPlayerMove = true;
-
+        LevelStarted = true;
         ChangeCamera();
         StartEnemies();
         Overlay.SetActive(true);

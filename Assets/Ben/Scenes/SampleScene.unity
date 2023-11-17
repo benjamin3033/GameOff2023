@@ -1560,6 +1560,7 @@ GameObject:
   - component: {fileID: 574204027}
   - component: {fileID: 574204029}
   - component: {fileID: 574204030}
+  - component: {fileID: 574204031}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1624,6 +1625,7 @@ MonoBehaviour:
   MilkValueMin: 8
   MaxMilk: 100
   CanPlayerMove: 0
+  LevelStarted: 0
   GamePaused: 0
 --- !u!114 &574204027
 MonoBehaviour:
@@ -1638,7 +1640,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemySpawner: {fileID: 574204028}
-  timer: 0
 --- !u!114 &574204028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1679,6 +1680,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthSlider: {fileID: 843571060}
+--- !u!114 &574204031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574204024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09329fe12262d7c4eb35450017197546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &591041187
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,18 +16,25 @@ public class EnemyWaveController : MonoBehaviour
     {
         levelSO = GameController.Instance.levelSO;
         waveOptions.AddRange(levelSO.waveOptions);
+
+        
     }
 
-    private void Update()
+    private void OnEnable()
     {
-        SpawnerCheck();
+        LevelTimer.OnTimerTick += SpawnerCheck;
     }
 
-    private void SpawnerCheck()
+    private void OnDisable()
+    {
+        LevelTimer.OnTimerTick -= SpawnerCheck;
+    }
+
+    private void SpawnerCheck(float timer)
     {
         for (int i = 0; i < waveOptions.Count; i++)
         {
-            if (LevelTimer.Instance.GetCurrentTime() > waveOptions[i].time)
+            if (timer > waveOptions[i].time)
             {
                 waveOptions[i].SpawnWave(enemySpawner);
                 waveOptions.RemoveAt(i);
@@ -39,12 +46,10 @@ public class EnemyWaveController : MonoBehaviour
     {
         if (Physics.CheckSphere(position, radius))
         {
-            
             return false;
         }
         else
         {
-
             return true;
         }
     }
