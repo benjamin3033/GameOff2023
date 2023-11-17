@@ -12,21 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c79015bcb8b3244b3f45aaa72e834f, type: 3}
   m_Name: Main
   m_EditorClassIdentifier: 
-  waveOptions:
-  - time: 0
-    amount: 10
-    radius: 30
-    HealthRange: {x: 1, y: 1}
-    DamageRange: {x: 1, y: 1}
-    enemySO: {fileID: 11400000, guid: 540d3606717533f41bfccb6d1cffa90d, type: 2}
-    Option: 0
-  - time: 5
-    amount: 10
-    radius: 30
-    HealthRange: {x: 1, y: 1}
-    DamageRange: {x: 1, y: 1}
-    enemySO: {fileID: 11400000, guid: 24e9bf8814859d844948c7e28fe6b05b, type: 2}
-    Option: 0
+  waveOptions: []
   numRows: 10
   numCols: 10
   spacing: 20
