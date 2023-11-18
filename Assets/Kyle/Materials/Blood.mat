@@ -38,7 +38,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Blood_Image:
-        m_Texture: {fileID: 2800000, guid: ebec747109c68434f9ae8d93d9818d41, type: 3}
+        m_Texture: {fileID: 2800000, guid: c931f9cf42997e74089ea1437521d1c6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,7 +55,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Blood_Move_Speed: 1.55
+    - _Blood_Move_Speed: -0.01
     - _DecalMeshBiasType: 0
     - _DecalMeshDepthBias: 0
     - _DecalMeshViewBias: 0
