@@ -42,16 +42,6 @@ public class EnemyWaveController : MonoBehaviour
         }
     }
 
-    public static bool IsRoomToSpawn(Vector3 position, float radius)
-    {
-        if (Physics.CheckSphere(position, radius))
-        {
-            return false;
-        }
-        else
-        {
-            return true;
-        }
-    }
+    
 
 }

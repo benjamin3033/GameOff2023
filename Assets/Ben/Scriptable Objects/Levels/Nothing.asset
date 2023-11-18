@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c79015bcb8b3244b3f45aaa72e834f, type: 3}
+  m_Name: Nothing
+  m_EditorClassIdentifier: 
+  waveOptions: []
+  numRows: 50
+  numCols: 50
+  spacing: 20
+  TilePrefab:
+  - tile: {fileID: 2314638382274059713, guid: 514617a5b631b1f4487b548f4f216435, type: 3}
+    chance: 0.1
+  - tile: {fileID: 2314638382274059713, guid: 8ceb4964bbe2a744e90078ba2e23d0ec, type: 3}
+    chance: 0.1
+  - tile: {fileID: 2314638382274059713, guid: c7256046856829646a0ecec98748a8af, type: 3}
+    chance: 0.1
+  - tile: {fileID: 2314638382274059713, guid: 3052ece60bf0ebd469b74b13b23531ad, type: 3}
+    chance: 0.1
+  - tile: {fileID: 2314638382274059713, guid: 62892514ff7698842a1c0ae163fc598a, type: 3}
+    chance: 0.1
+  - tile: {fileID: 2314638382274059713, guid: 397c95946e6103b42a94d9d5edc40748, type: 3}
+    chance: 0.1
+  - tile: {fileID: 3265747554029307776, guid: e88b4bafbe7fe174ba4d6e4321b38160, type: 3}
+    chance: 0.4
+  edgeTilePrefab: {fileID: 2438413422699472766, guid: 23d766cb8ef3066419b0b645bb9ac7b2,
+    type: 3}
+  centerTilePrefab: {fileID: 3265747554029307776, guid: e88b4bafbe7fe174ba4d6e4321b38160,
+    type: 3}
+  length: 2000

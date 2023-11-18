@@ -75,7 +75,7 @@ public class WaveOption
             Vector3 spawnPosition = new Vector3(x, 1, z);
 
             // Try to find a valid spawn position
-            while (!EnemyWaveController.IsRoomToSpawn(spawnPosition, 0.5f))
+            while (!IsRoomToSpawn(spawnPosition, 0.5f))
             {
                 // Adjust the spawn position if there is no room
                 float newAngle = Random.Range(0f, 360f);
@@ -87,6 +87,18 @@ public class WaveOption
 
             // Spawn the enemy at the final valid position
             enemySpawner.SpawnNewEnemy(enemySO, spawnPosition, this);
+        }
+    }
+
+    public static bool IsRoomToSpawn(Vector3 position, float radius)
+    {
+        if (Physics.CheckSphere(position, radius))
+        {
+            return false;
+        }
+        else
+        {
+            return true;
         }
     }
 }
