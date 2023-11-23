@@ -5,6 +5,7 @@ using TMPro;
 using Unity.AI.Navigation;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEngine.Rendering.DebugUI;
 
 public class GameController : MonoBehaviour
 {
@@ -47,6 +48,7 @@ public class GameController : MonoBehaviour
     [SerializeField] float MilkValueMax = 10;
     [SerializeField] float MilkValueMin = 1;
     [SerializeField] float MaxMilk = 100;
+    [SerializeField] GameObject MilkText;
 
     [HideInInspector] public bool CanPlayerMove = false;
     [HideInInspector] public bool LevelStarted = false;
@@ -85,7 +87,7 @@ public class GameController : MonoBehaviour
     {
         if (saveGameSO.MaxHealthPurchased != -1)
         {
-            Debug.Log(saveGameSO.MaxHealthPurchased);
+            
 
             MaxHealth = ShopController.Instance.MaxHealthValues[saveGameSO.MaxHealthPurchased];
         }
@@ -179,10 +181,32 @@ public class GameController : MonoBehaviour
         CookiesText.text = CookiesCollected.ToString();
     }
 
+    public void ResetMilk()
+    {
+        float valueStart = CurrentMilk;
+
+        DOTween.To(() => valueStart, x => valueStart = x, 0, 0.5f)
+            .OnUpdate(() => { MilkMeterSlider.value = valueStart; })
+            .OnComplete(() => { MilkMeterSlider.value = 0; CurrentMilk = 0; });
+
+        MilkText.SetActive(false);
+
+    }
+
     public void IncreaseMilk(float value)
     {
+        float valueStart = CurrentMilk;
+
         CurrentMilk += value;
-        MilkMeterSlider.value = CurrentMilk;
+
+        DOTween.To(() => valueStart, x => valueStart = x, valueStart + value, 0.5f)
+            .OnUpdate(() => { MilkMeterSlider.value = valueStart; })
+            .OnComplete(() => { MilkMeterSlider.value = CurrentMilk; });
+
+        if(CurrentMilk == MaxMilk)
+        {
+            MilkText.SetActive(true);
+        }
     }
 
     private void SpawnCookie(Vector3 position)

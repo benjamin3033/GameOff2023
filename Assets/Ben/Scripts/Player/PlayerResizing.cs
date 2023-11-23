@@ -25,7 +25,7 @@ public class PlayerResizing : MonoBehaviour
 
     private void ResizeInput()
     {
-        if (GameController.Instance.CurrentHealth < 100) { return; }
+        if (GameController.Instance.CurrentMilk < 100) { return; }
 
         ResizePlayer();
     }
@@ -37,6 +37,8 @@ public class PlayerResizing : MonoBehaviour
 
         if(!ScaleIsSlim)
         {
+            GameController.Instance.ResetMilk();
+
             Vector3 playerPosition = transform.position;
 
             RaycastHit[] hits = Physics.SphereCastAll(playerPosition, 5, Vector3.up, 0);

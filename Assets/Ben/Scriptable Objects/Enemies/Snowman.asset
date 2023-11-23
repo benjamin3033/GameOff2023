@@ -15,6 +15,9 @@ MonoBehaviour:
   Visual: {fileID: 6960672838412245812, guid: fb5b94f3d06369844ac1b5c091ffcf9d, type: 3}
   VisualHeight: -1.0877
   VisualRotation: {x: 0, y: 90, z: 0}
+  AnimationTriggers:
+  - Attack1
+  - Attack2
   NavMeshAgentType: 0
   Speed: 3.5
   AngularSpeed: 120

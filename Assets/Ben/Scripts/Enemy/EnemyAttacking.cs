@@ -3,14 +3,18 @@ using UnityEngine;
 
 public class EnemyAttacking : MonoBehaviour
 {
-    [SerializeField] bool CanDamage = true;
     [SerializeField] bool NearPlayer = false;
     [SerializeField] Enemy enemy;
 
+    private Animator animator;
+
+    private void Start()
+    {
+        animator = transform.parent.GetComponentInChildren<Animator>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
-        if(CanDamage)
-        
         if (other.TryGetComponent<PlayerHealth>(out PlayerHealth playerHealth))
         {
             NearPlayer = true;
@@ -31,14 +35,18 @@ public class EnemyAttacking : MonoBehaviour
 
     IEnumerator DamageCooldown(PlayerHealth playerHealth)
     {
-        CanDamage = false;
         playerHealth.TakeDamage(enemy.Damage);
+        PlayAnimation();
         yield return new WaitForSeconds(1);
-        CanDamage = true;
 
         if(NearPlayer)
         {
             StartCoroutine(DamageCooldown(playerHealth));
         }
+    }
+
+    private void PlayAnimation()
+    {
+        animator.SetTrigger(enemy.enemySO.AnimationTriggers[Random.Range(0, enemy.enemySO.AnimationTriggers.Count)]);
     }
 }

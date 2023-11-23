@@ -9,7 +9,7 @@ public class EnemySO : ScriptableObject
     public GameObject Visual;
     public float VisualHeight;
     public Vector3 VisualRotation;
-
+    public List<string> AnimationTriggers = new();
     public int NavMeshAgentType;
 
     [Header("Steering")]

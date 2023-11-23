@@ -28,11 +28,11 @@ public class Enemy : MonoBehaviour
     {
         EnemyDied?.Invoke(GetComponent<EnemyAI>());
         Visual.localRotation = Quaternion.Euler(0, -90, 90);
+        Destroy(Visual.GetComponentInChildren<Animator>());
         Visual.parent = null;
 
         GameController.Instance.EnemyDied(transform.position);
         
-
         Destroy(gameObject);
     }
 }
