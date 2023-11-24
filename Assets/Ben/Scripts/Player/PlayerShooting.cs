@@ -6,8 +6,12 @@ public class PlayerShooting : MonoBehaviour
 {
     [SerializeField] InputHandler input;
     [HideInInspector] public WeaponSO currentWeapon;
+    [SerializeField] Transform WeaponHoldPoint;
+    [SerializeField] PlayerAnimation playerAnimation;
 
     bool canShoot = true;
+
+    GameObject weaponVisual;
 
     private void OnEnable()
     {
@@ -17,6 +21,19 @@ public class PlayerShooting : MonoBehaviour
     private void OnDisable()
     {
         input.shoot -= ShootWeaponInput;
+    }
+
+    public void ChangeWeapon(WeaponSO weapon)
+    {
+        Destroy(weaponVisual);
+        weaponVisual = Instantiate(weapon.Weapon, WeaponHoldPoint);
+
+        weaponVisual.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+        weaponVisual.transform.localPosition = weapon.VisualPosition;
+        weaponVisual.transform.localEulerAngles = weapon.VisualRotation;
+
+        playerAnimation.HoldGun();
+        currentWeapon = weapon;
     }
 
     private void ShootWeaponInput()

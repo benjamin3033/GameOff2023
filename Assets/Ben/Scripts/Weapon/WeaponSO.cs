@@ -8,6 +8,7 @@ public class WeaponSO : ScriptableObject
     public Projectile projectile;
     public GameObject projectileTrail;
     public GameObject projectileCollision;
+    public GameObject Weapon;
 
     [Header("Stats")]
     
@@ -19,6 +20,8 @@ public class WeaponSO : ScriptableObject
     [Header("Extras")]
     [Range(0,1)]
     public float CameraShakeAmount = 1;
+    public Vector3 VisualPosition;
+    public Vector3 VisualRotation;
 
     [Header("Projectile Type")]
     public ProjectileType chosenProjectileType;

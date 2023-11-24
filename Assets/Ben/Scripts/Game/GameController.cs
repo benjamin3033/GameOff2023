@@ -135,6 +135,7 @@ public class GameController : MonoBehaviour
         ChangeCamera();
         StartEnemies();
         Overlay.SetActive(true);
+        PlayerAnimation.animator.SetLayerWeight(1, 1);
     }
 
     private void ChangeCamera()
@@ -153,7 +154,7 @@ public class GameController : MonoBehaviour
 
     public void ChooseWeapon(WeaponSO chosenWeapon)
     {
-        Player.GetComponent<PlayerShooting>().currentWeapon = chosenWeapon;
+        Player.GetComponent<PlayerShooting>().ChangeWeapon(chosenWeapon);
         
     }
 

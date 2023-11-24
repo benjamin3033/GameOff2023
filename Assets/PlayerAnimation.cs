@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
-    [SerializeField] Animator animator;
+    public static Animator animator;
     [SerializeField] Rigidbody rb;
+
+    [SerializeField] float Layer0;
+    [SerializeField] float Layer1;
 
     float magnitude;
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
         StartCoroutine(RandomIdleAnimation());
     }
 
@@ -43,4 +47,13 @@ public class PlayerAnimation : MonoBehaviour
             }
         }
     }
+
+
+    public void HoldGun()
+    {
+        animator.SetLayerWeight(2, 1);
+    }
+
+
+
 }
