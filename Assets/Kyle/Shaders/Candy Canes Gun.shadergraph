@@ -835,10 +835,10 @@
     "m_Guid": {
         "m_GuidSerialized": "ed174a35-d1b3-48dc-b810-f97c2f19d706"
     },
-    "m_Name": "Santa Shoe Colors",
+    "m_Name": "Elf Noses Colors",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Santa Shoe Colors",
-    "m_DefaultReferenceName": "_Santa_Shoe_Colors",
+    "m_RefNameGeneratedByDisplayName": "Elf Noses Colors",
+    "m_DefaultReferenceName": "_Elf_Noses_Colors",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -849,9 +849,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
+        "r": 0.3656105399131775,
+        "g": 0.42503032088279726,
+        "b": 0.9811320900917053,
         "a": 0.0
     },
     "isMainColor": false,
@@ -1063,10 +1063,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1158.510009765625,
-            "y": 1297.3724365234375,
-            "width": 0.0,
-            "height": 0.0
+            "x": -1287.0,
+            "y": 1257.0,
+            "width": 173.0,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -1099,10 +1099,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1184.5,
-            "y": 2704.80029296875,
-            "width": 0.0,
-            "height": 0.0
+            "x": -880.9998779296875,
+            "y": 2883.0,
+            "width": 191.0001220703125,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -1135,9 +1135,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -585.9999389648438,
-            "y": 1755.0,
-            "width": 215.0,
+            "x": -821.0001220703125,
+            "y": 1734.0,
+            "width": 215.00006103515626,
             "height": 375.0
         }
     },
@@ -1193,7 +1193,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "1ea8dc1ce3254a1bba25bf35c7817bd1",
     "m_Id": 0,
-    "m_DisplayName": "Santa Secondarly Arm Color",
+    "m_DisplayName": "Elf Shoe Balls",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1218,7 +1218,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "256826b912dc457e8b7441182b6880a2",
     "m_Id": 0,
-    "m_DisplayName": "Santa Ears",
+    "m_DisplayName": "Color 7",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1243,7 +1243,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "2601f49663a840f7881489b4c3843c82",
     "m_Id": 0,
-    "m_DisplayName": "Santa Eyebrows",
+    "m_DisplayName": "Color 4",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1437,9 +1437,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -694.0,
-            "y": 2171.0,
-            "width": 214.9998779296875,
+            "x": -966.9999389648438,
+            "y": 2282.0,
+            "width": 214.99981689453126,
             "height": 375.0
         }
     },
@@ -1497,10 +1497,10 @@
     "m_Guid": {
         "m_GuidSerialized": "37dbcd25-b9c1-44c9-8400-fcd1fd59aa90"
     },
-    "m_Name": "Santa Bread And Hat",
+    "m_Name": "Color 1",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Santa Bread And Hat",
-    "m_DefaultReferenceName": "_Santa_Bread_And_Hat",
+    "m_RefNameGeneratedByDisplayName": "Color 1",
+    "m_DefaultReferenceName": "_Color_1",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -1561,10 +1561,10 @@
     "m_Guid": {
         "m_GuidSerialized": "2c7edcd2-a0f6-436c-b618-abbe30896d05"
     },
-    "m_Name": "Santa Ears",
+    "m_Name": "Color 7",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Santa Ears",
-    "m_DefaultReferenceName": "_Santa_Ears",
+    "m_RefNameGeneratedByDisplayName": "Color 7",
+    "m_DefaultReferenceName": "_Color_7",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -1614,7 +1614,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "420ddcc6c3734914af5562783269a74f",
     "m_Id": 0,
-    "m_DisplayName": "Santa Red Part Of Hat",
+    "m_DisplayName": "Color 6",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1639,7 +1639,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "428345efde2c465a8eea7fdc517deded",
     "m_Id": 0,
-    "m_DisplayName": "Santa Hands",
+    "m_DisplayName": "Color 9",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1664,7 +1664,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "4385ebef32b34f52be773f357a45e785",
     "m_Id": 0,
-    "m_DisplayName": "Santa Eye Balls",
+    "m_DisplayName": "Color 5",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1696,9 +1696,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1095.0,
-            "y": 1947.0,
-            "width": 133.0,
+            "x": -1330.0,
+            "y": 1926.0,
+            "width": 150.9998779296875,
             "height": 34.0
         }
     },
@@ -1781,10 +1781,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1151.1500244140625,
-            "y": 2942.85009765625,
-            "width": 0.0,
-            "height": 0.0
+            "x": -859.9998168945313,
+            "y": 3169.0,
+            "width": 162.99993896484376,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -1810,7 +1810,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "4dcd99c8f3ae4384a8b7d8e168633cf2",
     "m_Id": 0,
-    "m_DisplayName": "Santas Pants Colors",
+    "m_DisplayName": "Elf Middle Eye Color",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1842,10 +1842,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1244.3001708984375,
-            "y": 2404.650146484375,
-            "width": 0.0,
-            "height": 0.0
+            "x": -1429.0,
+            "y": 2521.0,
+            "width": 145.0,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -1922,10 +1922,10 @@
     "m_Guid": {
         "m_GuidSerialized": "003eeb65-6705-4a75-9363-09497a7f4158"
     },
-    "m_Name": "Santa Secondarly Arm Color",
+    "m_Name": "Elf Shoe Balls",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Santa Secondarly Arm Color",
-    "m_DefaultReferenceName": "_Santa_Secondarly_Arm_Color",
+    "m_RefNameGeneratedByDisplayName": "Elf Shoe Balls",
+    "m_DefaultReferenceName": "_Elf_Shoe_Balls",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -1936,9 +1936,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
         "a": 0.0
     },
     "isMainColor": false,
@@ -2007,7 +2007,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "55c49ad3bc3e4690a5a9534c0f1eb5ea",
     "m_Id": 0,
-    "m_DisplayName": "Santa Checks",
+    "m_DisplayName": "Color 10",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2105,7 +2105,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "5a6a6adcd7074463b5e18691bbbe30d0",
     "m_Id": 0,
-    "m_DisplayName": "Santa Main Body Color",
+    "m_DisplayName": "Elf Arms",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2137,9 +2137,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1078.0,
-            "y": 2022.0,
-            "width": 167.0001220703125,
+            "x": -1313.0001220703125,
+            "y": 2001.0,
+            "width": 114.0,
             "height": 34.0
         }
     },
@@ -2168,10 +2168,10 @@
     "m_Guid": {
         "m_GuidSerialized": "c1564ff2-f314-49c7-8922-618fef94c6b5"
     },
-    "m_Name": "Santa Red Part Of Hat",
+    "m_Name": "Color 6",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Santa Red Part Of Hat",
-    "m_DefaultReferenceName": "_Santa_Red_Part_Of_Hat",
+    "m_RefNameGeneratedByDisplayName": "Color 6",
+    "m_DefaultReferenceName": "_Color_6",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -2246,10 +2246,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1163.800048828125,
-            "y": 1479.87744140625,
-            "width": 0.0,
-            "height": 0.0
+            "x": -1292.0,
+            "y": 1440.0,
+            "width": 172.0,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -2386,9 +2386,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1130.0001220703125,
-            "y": 2217.000244140625,
-            "width": 105.0,
+            "x": -1417.0,
+            "y": 2312.0,
+            "width": 126.0,
             "height": 34.0
         }
     },
@@ -2502,10 +2502,10 @@
     "m_Guid": {
         "m_GuidSerialized": "ab5a97ed-1d06-4604-b6f8-45fee2d8dd2b"
     },
-    "m_Name": "Santa Main Body Color",
+    "m_Name": "Elf Arms",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Santa Main Body Color",
-    "m_DefaultReferenceName": "_Santa_Main_Body_Color",
+    "m_RefNameGeneratedByDisplayName": "Elf Arms",
+    "m_DefaultReferenceName": "_Elf_Arms",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -2516,9 +2516,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
+        "r": 0.5900956392288208,
+        "g": 0.6415094137191773,
+        "b": 0.09380561858415604,
         "a": 0.0
     },
     "isMainColor": false,
@@ -2537,10 +2537,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -764.3157348632813,
-            "y": 2674.23046875,
-            "width": 0.0,
-            "height": 0.0
+            "x": -472.9999694824219,
+            "y": 2900.0,
+            "width": 215.00021362304688,
+            "height": 375.0
         }
     },
     "m_Slots": [
@@ -2621,10 +2621,10 @@
     "m_Guid": {
         "m_GuidSerialized": "c5e01ac1-a58a-499e-9457-4cfad29121d3"
     },
-    "m_Name": "Santa Eyes Inner",
+    "m_Name": "Color 3",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Santa Eyes Inner",
-    "m_DefaultReferenceName": "_Santa_Eyes_Inner",
+    "m_RefNameGeneratedByDisplayName": "Color 3",
+    "m_DefaultReferenceName": "_Color_3",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -2636,8 +2636,8 @@
     "m_Hidden": false,
     "m_Value": {
         "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
+        "g": 0.9218220710754395,
+        "b": 1.0,
         "a": 0.0
     },
     "isMainColor": false,
@@ -2656,10 +2656,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1077.5501708984375,
-            "y": 1852.650146484375,
-            "width": 0.0,
-            "height": 0.0
+            "x": -1313.0001220703125,
+            "y": 1832.0,
+            "width": 186.0,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -2726,9 +2726,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 1067.0,
-            "y": 1942.0,
-            "width": 207.9998779296875,
+            "x": 1068.0,
+            "y": 1908.0,
+            "width": 208.0,
             "height": 302.0
         }
     },
@@ -2992,9 +2992,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1.0003246068954468,
-            "y": 2713.999755859375,
-            "width": 208.00001525878907,
+            "x": -145.99984741210938,
+            "y": 2296.0,
+            "width": 207.99989318847657,
             "height": 391.0
         }
     },
@@ -3156,9 +3156,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1095.000244140625,
-            "y": 2279.000244140625,
-            "width": 105.0001220703125,
+            "x": -1382.0,
+            "y": 2381.0,
+            "width": 196.0,
             "height": 34.0
         }
     },
@@ -3200,7 +3200,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "888446f6c7094da8ac8c664d3b8cb3a5",
     "m_Id": 0,
-    "m_DisplayName": "Santa Face Color",
+    "m_DisplayName": "Color 8",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -3227,10 +3227,10 @@
     "m_Guid": {
         "m_GuidSerialized": "1779f019-0df3-4d65-8db5-5e943b2f0cc6"
     },
-    "m_Name": "Santa Hands",
+    "m_Name": "Color 9",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Santa Hands",
-    "m_DefaultReferenceName": "_Santa_Hands",
+    "m_RefNameGeneratedByDisplayName": "Color 9",
+    "m_DefaultReferenceName": "_Color_9",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -3241,9 +3241,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
+        "r": 0.16938525438308717,
+        "g": 0.5471698045730591,
+        "b": 0.0748487114906311,
         "a": 0.0
     },
     "isMainColor": false,
@@ -3262,9 +3262,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 223.00001525878907,
-            "y": 2499.000244140625,
-            "width": 207.9999542236328,
+            "x": 307.0,
+            "y": 2627.0,
+            "width": 208.0,
             "height": 302.0
         }
     },
@@ -3298,7 +3298,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "8bb4b1859c714422a2b6ee457392fd53",
     "m_Id": 0,
-    "m_DisplayName": "Santa Shoe Colors",
+    "m_DisplayName": "Elf Noses Colors",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -3325,10 +3325,10 @@
     "m_Guid": {
         "m_GuidSerialized": "7bacc985-b39b-4e01-b3cb-9aee97122fca"
     },
-    "m_Name": "Santa Eyebrows",
+    "m_Name": "Color 4",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Santa Eyebrows",
-    "m_DefaultReferenceName": "_Santa_Eyebrows",
+    "m_RefNameGeneratedByDisplayName": "Color 4",
+    "m_DefaultReferenceName": "_Color_4",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -3468,7 +3468,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "93a185c9f94a47f1bdc57b304f58d7bc",
     "m_Id": 0,
-    "m_DisplayName": "Santa Second Body Color",
+    "m_DisplayName": "Elf Belt Color",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -3696,7 +3696,7 @@
     "m_ZTestMode": 4,
     "m_ZWriteControl": 0,
     "m_AlphaMode": 0,
-    "m_RenderFace": 2,
+    "m_RenderFace": 0,
     "m_AlphaClip": false,
     "m_CastShadows": true,
     "m_ReceiveShadows": true,
@@ -3929,10 +3929,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1284.550048828125,
-            "y": 2856.60009765625,
-            "width": 0.0,
-            "height": 0.0
+            "x": -994.9998779296875,
+            "y": 3083.0,
+            "width": 181.99981689453126,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -4152,9 +4152,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.0,
+        "r": 1.0,
         "g": 0.0,
-        "b": 0.0,
+        "b": 0.5166921615600586,
         "a": 0.0
     },
     "isMainColor": false,
@@ -4207,10 +4207,10 @@
     "m_Guid": {
         "m_GuidSerialized": "4cc4ef4b-a081-4529-8615-25c28f09e11a"
     },
-    "m_Name": "Santa Second Body Color",
+    "m_Name": "Elf Belt Color",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Santa Second Body Color",
-    "m_DefaultReferenceName": "_Santa_Second_Body_Color",
+    "m_RefNameGeneratedByDisplayName": "Elf Belt Color",
+    "m_DefaultReferenceName": "_Elf_Belt_Color",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -4221,8 +4221,8 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.0,
-        "g": 0.0,
+        "r": 1.0,
+        "g": 0.12189166247844696,
         "b": 0.0,
         "a": 0.0
     },
@@ -4266,10 +4266,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -586.0000610351563,
-            "y": 1346.0,
-            "width": 214.99996948242188,
-            "height": 374.9998779296875
+            "x": -714.0,
+            "y": 1306.0,
+            "width": 215.00003051757813,
+            "height": 375.0
         }
     },
     "m_Slots": [
@@ -4331,10 +4331,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1224.75,
-            "y": 2773.80029296875,
-            "width": 0.0,
-            "height": 0.0
+            "x": -933.9999389648438,
+            "y": 3000.0,
+            "width": 148.0001220703125,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -4377,10 +4377,10 @@
     "m_Guid": {
         "m_GuidSerialized": "5dcce1c2-a255-4635-939b-f5f0e23ef4df"
     },
-    "m_Name": "Santa Nose",
+    "m_Name": "Color 2",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Santa Nose",
-    "m_DefaultReferenceName": "_Santa_Nose",
+    "m_RefNameGeneratedByDisplayName": "Color 2",
+    "m_DefaultReferenceName": "_Color_2",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -4412,9 +4412,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1142.000244140625,
-            "y": 2313.000244140625,
-            "width": 196.0001220703125,
+            "x": -1417.0,
+            "y": 2449.0,
+            "width": 121.0,
             "height": 34.0
         }
     },
@@ -4521,9 +4521,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1002.0,
-            "y": 1782.0,
-            "width": 105.00006103515625,
+            "x": -1237.0001220703125,
+            "y": 1761.0,
+            "width": 147.0001220703125,
             "height": 34.0
         }
     },
@@ -4552,10 +4552,10 @@
     "m_Guid": {
         "m_GuidSerialized": "4f9cbd0f-1a9c-437d-b782-a33f3266f1fe"
     },
-    "m_Name": "Santa Face Color",
+    "m_Name": "Color 8",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Santa Face Color",
-    "m_DefaultReferenceName": "_Santa_Face_Color",
+    "m_RefNameGeneratedByDisplayName": "Color 8",
+    "m_DefaultReferenceName": "_Color_8",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -4582,10 +4582,10 @@
     "m_Guid": {
         "m_GuidSerialized": "481c8a6b-170d-4666-9e92-5f7a175eb051"
     },
-    "m_Name": "Santa Eye Balls",
+    "m_Name": "Color 5",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Santa Eye Balls",
-    "m_DefaultReferenceName": "_Santa_Eye_Balls",
+    "m_RefNameGeneratedByDisplayName": "Color 5",
+    "m_DefaultReferenceName": "_Color_5",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -4612,10 +4612,10 @@
     "m_Guid": {
         "m_GuidSerialized": "72034ee1-762b-49f3-b1a1-dcb9fb1a6729"
     },
-    "m_Name": "Santa Checks",
+    "m_Name": "Color 10",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Santa Checks",
-    "m_DefaultReferenceName": "_Santa_Checks",
+    "m_RefNameGeneratedByDisplayName": "Color 10",
+    "m_DefaultReferenceName": "_Color_10",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -4626,8 +4626,8 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.0,
-        "g": 0.0,
+        "r": 0.2437291145324707,
+        "g": 1.0,
         "b": 0.0,
         "a": 0.0
     },
@@ -4664,7 +4664,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "df76c86654c1400e86ed6b3b46cda88a",
     "m_Id": 0,
-    "m_DisplayName": "Santa Eyes Inner",
+    "m_DisplayName": "Color 3",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -4739,7 +4739,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "e2e1b29663b8481cbd1a9f099df52abf",
     "m_Id": 0,
-    "m_DisplayName": "Santa Nose",
+    "m_DisplayName": "Color 2",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -4764,7 +4764,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "e37a8385fd1b4f6c899eab3daa268ef3",
     "m_Id": 0,
-    "m_DisplayName": "Santa Bread And Hat",
+    "m_DisplayName": "Color 1",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -4791,10 +4791,10 @@
     "m_Guid": {
         "m_GuidSerialized": "bbe74191-efbb-4598-8fea-8e9864fd0c4a"
     },
-    "m_Name": "Santas Pants Colors",
+    "m_Name": "Elf Middle Eye Color",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Santas Pants Colors",
-    "m_DefaultReferenceName": "_Santas_Pants_Colors",
+    "m_RefNameGeneratedByDisplayName": "Elf Middle Eye Color",
+    "m_DefaultReferenceName": "_Elf_Middle_Eye_Color",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -4805,9 +4805,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.0,
+        "r": 0.7147212028503418,
         "g": 0.0,
-        "b": 0.0,
+        "b": 1.0,
         "a": 0.0
     },
     "isMainColor": false,
@@ -4914,10 +4914,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1177.0250244140625,
-            "y": 1351.594970703125,
-            "width": 0.0,
-            "height": 0.0
+            "x": -1305.0,
+            "y": 1312.0,
+            "width": 172.0,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -4950,9 +4950,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1177.0001220703125,
-            "y": 1412.0,
-            "width": 165.0001220703125,
+            "x": -1305.0,
+            "y": 1372.0,
+            "width": 155.0,
             "height": 34.0
         }
     },
