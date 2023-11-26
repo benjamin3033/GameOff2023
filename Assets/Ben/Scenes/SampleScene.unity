@@ -2296,6 +2296,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayButton
       objectReference: {fileID: 0}
+    - target: {fileID: 3476683334703680664, guid: ca6b5dd9273c45e4fb425f8461573f1c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4284183002540987938, guid: ca6b5dd9273c45e4fb425f8461573f1c,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -2922,6 +2927,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayText
       objectReference: {fileID: 0}
+    - target: {fileID: 4149121401099708816, guid: 18f998be653083b4e96ae49f9a59e5dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3177,6 +3187,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: QuitButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476683334703680664, guid: ca6b5dd9273c45e4fb425f8461573f1c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4284183002540987938, guid: ca6b5dd9273c45e4fb425f8461573f1c,
         type: 3}
@@ -3695,6 +3710,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1764410535793636398, guid: e4c7e1bf6f4bc1d4fa86b3d327043992,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4074,6 +4094,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764410535793636398, guid: e4c7e1bf6f4bc1d4fa86b3d327043992,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5000,6 +5025,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8004511898759871023, guid: 7fcc3e916871dd8489904c3723b63d2d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8985061355468828160, guid: 7fcc3e916871dd8489904c3723b63d2d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5054,6 +5084,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UI Room (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9000099704364858368, guid: 7fcc3e916871dd8489904c3723b63d2d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7028,6 +7063,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: QuitText
       objectReference: {fileID: 0}
+    - target: {fileID: 1741475647813216103, guid: 50cf635378fe9fd4e8301fde91aee528,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7285,6 +7325,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 591041188}
     m_Modifications:
+    - target: {fileID: 1240120966795920825, guid: 3029aa224598b5a4e99d213574fb3f22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1543979857815198028, guid: 3029aa224598b5a4e99d213574fb3f22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7339,6 +7384,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 'Big UI Present '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8471169372978783078, guid: 3029aa224598b5a4e99d213574fb3f22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

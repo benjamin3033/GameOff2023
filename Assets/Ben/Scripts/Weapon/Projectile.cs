@@ -1,6 +1,7 @@
 using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.ProjectWindowCallback;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
@@ -10,13 +11,15 @@ public class Projectile : MonoBehaviour
     [SerializeField] Renderer projectileRenderer;
     private WeaponSO weapon;
 
-    private void OnCollisionEnter(Collision collision)
+    private int PierceHealth;
+
+    private void OnTriggerEnter(Collider other)
     {
-        switch(weapon.chosenProjectileType)
+        switch (weapon.chosenProjectileType)
         {
             case WeaponSO.ProjectileType.Basic:
                 {
-                    if (collision.collider.TryGetComponent<Enemy>(out Enemy enemy))
+                    if (other.TryGetComponent<Enemy>(out Enemy enemy))
                     {
                         enemy.TakeDamage(weapon.ShotDamage);
                         DestroyProjectile(0);
@@ -40,8 +43,29 @@ public class Projectile : MonoBehaviour
                     CollisionParticle();
                 }
                 break;
-        }
 
+            case WeaponSO.ProjectileType.Piercing:
+                {
+                    if (other.TryGetComponent<Enemy>(out Enemy enemy))
+                    {
+                        enemy.TakeDamage(weapon.ShotDamage);
+                        CollisionParticle();
+
+                        Debug.Log(PierceHealth);
+
+                        PierceHealth--;
+
+                        if (PierceHealth <= 0)
+                        {
+                            DestroyProjectile(0);
+                        }
+                    }
+                }
+                break;
+        }
+        
+        if (other.TryGetComponent<Enemy>(out Enemy test)) { return; }
+        
         DestroyProjectile(0);
         CollisionParticle();
     }
@@ -49,6 +73,11 @@ public class Projectile : MonoBehaviour
     public void SetWeapon(WeaponSO weaponSO)
     {
         weapon = weaponSO;
+
+        if(weapon.chosenProjectileType == WeaponSO.ProjectileType.Piercing)
+        {
+            PierceHealth = weapon.PierceAmount;
+        }
     }
 
     public void SendProjectileInDirection(Vector3 direction)

@@ -29,9 +29,13 @@ public class WeaponSO : ScriptableObject
     [Header("Explosive Settings")]
     public float ExplosiveRadius;
 
+    [Header("Piercing Settings")]
+    public int PierceAmount = 20;
+
     public enum ProjectileType
     {
         Basic,
-        Explosive
+        Explosive,
+        Piercing
     }
 }
