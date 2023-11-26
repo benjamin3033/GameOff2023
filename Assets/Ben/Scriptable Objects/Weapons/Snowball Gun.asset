@@ -10,21 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9cee3d3161b00064bb1bd2463f3dc843, type: 3}
-  m_Name: Present Launcher
+  m_Name: Snowball Gun
   m_EditorClassIdentifier: 
-  projectile: {fileID: 4545344844539664421, guid: 0504e737e51d5994c992d56f556a5a22,
+  projectile: {fileID: 4545344844539664421, guid: 364646f5937ca014e9586fce9beedc98,
     type: 3}
   projectileTrail: {fileID: 5890045561557738439, guid: 5788179306fec0a4ab7e51cd906cfaac,
     type: 3}
-  projectileCollision: {fileID: 6344948186754524761, guid: 037cc2414873b6249a93453cb89d946f,
+  projectileCollision: {fileID: 7089479874226599395, guid: a59b04c8eff2e9f4e825223a10416911,
     type: 3}
-  Weapon: {fileID: 3678637662938499818, guid: 96a6b239d405af7439d4e01b0cdfe2c9, type: 3}
+  Weapon: {fileID: 2699394984624708670, guid: dbb7f0a76b224e34f921db404e17d25b, type: 3}
   ShotDelay: 0.1
   ShotDamage: 1
   ShotLifeTime: 2
   ProjectileSpeed: 1000
   CameraShakeAmount: 0.5
-  VisualPosition: {x: 0.00073, y: -0.00159, z: -0.00126}
+  VisualPosition: {x: -0.00512, y: -0.0042, z: 0.00323}
   VisualRotation: {x: 28.809889, y: 266.56677, z: 80.648384}
-  chosenProjectileType: 1
+  chosenProjectileType: 2
   ExplosiveRadius: 2
+  PierceAmount: 20

@@ -57,8 +57,110 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
-      maskType: 3
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Santa Model
+        weight: 0
+      - path: Santa Rig
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Leg_L_Top
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Leg_L_Top/Leg_L_Bottom
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Leg_L_Top/Leg_L_Bottom/L_Foot
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Leg_L_Top/Leg_L_Bottom/L_Foot/L_Foot_end
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Leg_R_Top
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Leg_R_Top/Leg_R_Bottom
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Leg_R_Top/Leg_R_Bottom/R_Foot
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Leg_R_Top/Leg_R_Bottom/R_Foot/R_Foot_end
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Beard_Top
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Beard_Top/Santa_Beard_Bottom
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Beard_Top/Santa_Beard_Bottom/Santa_Beard_Bottom_end
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_L_Holder
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_L_Holder/Santa_Eye_L_Brow
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_L_Holder/Santa_Eye_L_Brow/Santa_Eye_L_Brow_end
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_L_Holder/Santa_Eye_L_Eye
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_L_Holder/Santa_Eye_L_Eye/Santa_Eye_L_Eye_end
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_R_Holder
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_R_Holder/Santa_Eye_R_Brow
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_R_Holder/Santa_Eye_R_Brow/Santa_Eye_R_Brow_end
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_R_Holder/Santa_Eye_R_Eye
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_R_Holder/Santa_Eye_R_Eye/Santa_Eye_R_Eye_end
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Main_Hat
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Main_Hat/Santa_Hat_Bottom
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Main_Hat/Santa_Hat_Bottom/Santa_Hat_Middle
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Main_Hat/Santa_Hat_Bottom/Santa_Hat_Middle/Santa_Hat_Top
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Main_Hat/Santa_Hat_Bottom/Santa_Hat_Middle/Santa_Hat_Top/Santa_Hat_Top_end
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm/Santa_L_Bottom_Arm
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm/Santa_L_Bottom_Arm/Santa_L_Hand
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm/Santa_L_Bottom_Arm/Santa_L_Hand/Santa_L_Finger_Bottom
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm/Santa_L_Bottom_Arm/Santa_L_Hand/Santa_L_Finger_Bottom/Santa_L_Finger_Top
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm/Santa_L_Bottom_Arm/Santa_L_Hand/Santa_L_Finger_Bottom/Santa_L_Finger_Top/Santa_L_Finger_Top_end
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm/Santa_L_Bottom_Arm/Santa_L_Hand/Santa_L_Thumb_Buttom
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm/Santa_L_Bottom_Arm/Santa_L_Hand/Santa_L_Thumb_Buttom/Santa_L_Thumb_Top
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm/Santa_L_Bottom_Arm/Santa_L_Hand/Santa_L_Thumb_Buttom/Santa_L_Thumb_Top/Santa_L_Thumb_Top_end
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm/Santa_R_Bottom_Arm
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm/Santa_R_Bottom_Arm/Santa_R_Hand
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm/Santa_R_Bottom_Arm/Santa_R_Hand/Santa_R_Finger_Bottom
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm/Santa_R_Bottom_Arm/Santa_R_Hand/Santa_R_Finger_Bottom/Santa_R_Finger_Top
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm/Santa_R_Bottom_Arm/Santa_R_Hand/Santa_R_Finger_Bottom/Santa_R_Finger_Top/Santa_R_Finger_Top_end
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm/Santa_R_Bottom_Arm/Santa_R_Hand/Santa_R_Thumb_Buttom
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm/Santa_R_Bottom_Arm/Santa_R_Hand/Santa_R_Thumb_Buttom/Santa_R_Thumb_Top
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm/Santa_R_Bottom_Arm/Santa_R_Hand/Santa_R_Thumb_Buttom/Santa_R_Thumb_Top/Santa_R_Thumb_Top_end
+        weight: 1
+      maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
@@ -66,14 +168,14 @@ ModelImporter:
       takeName: Santa Rig|Santa RigAction
       internalID: 7488327565976761982
       firstFrame: 0
-      lastFrame: 0
+      lastFrame: 1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -86,16 +188,118 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Santa Model
+        weight: 0
+      - path: Santa Rig
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Leg_L_Top
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Leg_L_Top/Leg_L_Bottom
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Leg_L_Top/Leg_L_Bottom/L_Foot
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Leg_L_Top/Leg_L_Bottom/L_Foot/L_Foot_end
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Leg_R_Top
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Leg_R_Top/Leg_R_Bottom
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Leg_R_Top/Leg_R_Bottom/R_Foot
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Leg_R_Top/Leg_R_Bottom/R_Foot/R_Foot_end
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Beard_Top
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Beard_Top/Santa_Beard_Bottom
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Beard_Top/Santa_Beard_Bottom/Santa_Beard_Bottom_end
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_L_Holder
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_L_Holder/Santa_Eye_L_Brow
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_L_Holder/Santa_Eye_L_Brow/Santa_Eye_L_Brow_end
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_L_Holder/Santa_Eye_L_Eye
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_L_Holder/Santa_Eye_L_Eye/Santa_Eye_L_Eye_end
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_R_Holder
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_R_Holder/Santa_Eye_R_Brow
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_R_Holder/Santa_Eye_R_Brow/Santa_Eye_R_Brow_end
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_R_Holder/Santa_Eye_R_Eye
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Eye_R_Holder/Santa_Eye_R_Eye/Santa_Eye_R_Eye_end
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Main_Hat
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Main_Hat/Santa_Hat_Bottom
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Main_Hat/Santa_Hat_Bottom/Santa_Hat_Middle
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Main_Hat/Santa_Hat_Bottom/Santa_Hat_Middle/Santa_Hat_Top
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_Head/Santa_Main_Hat/Santa_Hat_Bottom/Santa_Hat_Middle/Santa_Hat_Top/Santa_Hat_Top_end
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm/Santa_L_Bottom_Arm
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm/Santa_L_Bottom_Arm/Santa_L_Hand
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm/Santa_L_Bottom_Arm/Santa_L_Hand/Santa_L_Finger_Bottom
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm/Santa_L_Bottom_Arm/Santa_L_Hand/Santa_L_Finger_Bottom/Santa_L_Finger_Top
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm/Santa_L_Bottom_Arm/Santa_L_Hand/Santa_L_Finger_Bottom/Santa_L_Finger_Top/Santa_L_Finger_Top_end
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm/Santa_L_Bottom_Arm/Santa_L_Hand/Santa_L_Thumb_Buttom
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm/Santa_L_Bottom_Arm/Santa_L_Hand/Santa_L_Thumb_Buttom/Santa_L_Thumb_Top
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_L_Top_Arm/Santa_L_Bottom_Arm/Santa_L_Hand/Santa_L_Thumb_Buttom/Santa_L_Thumb_Top/Santa_L_Thumb_Top_end
+        weight: 0
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm/Santa_R_Bottom_Arm
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm/Santa_R_Bottom_Arm/Santa_R_Hand
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm/Santa_R_Bottom_Arm/Santa_R_Hand/Santa_R_Finger_Bottom
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm/Santa_R_Bottom_Arm/Santa_R_Hand/Santa_R_Finger_Bottom/Santa_R_Finger_Top
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm/Santa_R_Bottom_Arm/Santa_R_Hand/Santa_R_Finger_Bottom/Santa_R_Finger_Top/Santa_R_Finger_Top_end
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm/Santa_R_Bottom_Arm/Santa_R_Hand/Santa_R_Thumb_Buttom
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm/Santa_R_Bottom_Arm/Santa_R_Hand/Santa_R_Thumb_Buttom/Santa_R_Thumb_Top
+        weight: 1
+      - path: Santa Rig/Santas_Master_Bone/Santa_Main_Base/Santa_Body/Santa_R_Top_Arm/Santa_R_Bottom_Arm/Santa_R_Hand/Santa_R_Thumb_Buttom/Santa_R_Thumb_Top/Santa_R_Thumb_Top_end
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 9290eb2354988454db3cecfaac6c4ee1, type: 2}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Holding SnowBall Gun
       takeName: Santa Rig|Santa RigAction
       internalID: 7951687102546884547
       firstFrame: 1
-      lastFrame: 1
+      lastFrame: 30
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -578,7 +782,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: Santa Model
+    rootMotionBoneName: Santas_Master_Bone
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1

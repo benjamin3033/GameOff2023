@@ -14,26 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waveOptions:
   - time: 0
-    amount: 100
+    amount: 50
     radius: 30
     HealthRange: {x: 1, y: 1}
     DamageRange: {x: 1, y: 1}
     enemySO: {fileID: 11400000, guid: 24e9bf8814859d844948c7e28fe6b05b, type: 2}
     Option: 1
-  - time: 10
-    amount: 100
-    radius: 30
-    HealthRange: {x: 1, y: 1}
-    DamageRange: {x: 1, y: 1}
-    enemySO: {fileID: 11400000, guid: 540d3606717533f41bfccb6d1cffa90d, type: 2}
-    Option: 1
-  - time: 30
-    amount: 1000
-    radius: 30
-    HealthRange: {x: 10, y: 10}
-    DamageRange: {x: 1, y: 1}
-    enemySO: {fileID: 11400000, guid: 540d3606717533f41bfccb6d1cffa90d, type: 2}
-    Option: 0
   numRows: 50
   numCols: 50
   spacing: 20
