@@ -22,6 +22,9 @@ public class WeaponSO : ScriptableObject
     public float CameraShakeAmount = 1;
     public Vector3 VisualPosition;
     public Vector3 VisualRotation;
+    public Vector3 ShotStartPosition;
+    public string Name;
+    public string Description;
 
     [Header("Projectile Type")]
     public ProjectileType chosenProjectileType;

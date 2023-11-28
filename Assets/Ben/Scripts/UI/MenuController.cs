@@ -15,6 +15,8 @@ public class MenuController : MonoBehaviour
     [SerializeField] GameObject WeaponCanvas;
     [SerializeField] GameObject LevelCanvas;
 
+    [SerializeField] WeaponAndLevelSelection selection;
+
     private void Start()
     {
         PlayButton.onClick.AddListener(PressedPlayButton);
@@ -25,6 +27,7 @@ public class MenuController : MonoBehaviour
     {
         MainMenuCamera.SetActive(false);
         PlayMenuCamera.SetActive(true);
+        selection.EnableScript();
     }
 
     public void ChooseWeapon(WeaponSO weapon)

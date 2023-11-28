@@ -1,6 +1,8 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Rendering.Universal;
 
 public class Enemy : MonoBehaviour
 {
@@ -11,6 +13,10 @@ public class Enemy : MonoBehaviour
     public TileOcclusion occlusion;
 
     public Action<EnemyAI> EnemyDied;
+
+    [SerializeField] List<Texture2D> bloods = new();
+
+    [SerializeField] MeshRenderer BloodPrefab;
 
     public void TakeDamage(int amount)
     {
@@ -30,6 +36,10 @@ public class Enemy : MonoBehaviour
         Visual.localRotation = Quaternion.Euler(0, -90, 90);
         Destroy(Visual.GetComponentInChildren<Animator>());
         Visual.parent = null;
+
+        MeshRenderer blood = Instantiate(BloodPrefab);
+        blood.material.SetTexture("_Blood_Image", bloods[UnityEngine.Random.Range(0, bloods.Count)]);
+        blood.transform.position = new Vector3(transform.position.x, 0.01f, transform.position.z);
 
         GameController.Instance.EnemyDied(transform.position);
         

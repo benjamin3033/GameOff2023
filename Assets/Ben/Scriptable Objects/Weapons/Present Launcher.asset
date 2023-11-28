@@ -26,5 +26,9 @@ MonoBehaviour:
   CameraShakeAmount: 0.5
   VisualPosition: {x: 0.00073, y: -0.00159, z: -0.00126}
   VisualRotation: {x: 28.809889, y: 266.56677, z: 80.648384}
+  ShotStartPosition: {x: 0.713, y: 0.119, z: 0.723}
+  Name: Present Launcher
+  Description: Fires explosive presents and damages multiple enemies in a radius
   chosenProjectileType: 1
   ExplosiveRadius: 2
+  PierceAmount: 20

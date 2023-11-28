@@ -6,6 +6,10 @@ using static LevelTileController;
 [CreateAssetMenu()]
 public class LevelSO : ScriptableObject
 {
+    [Header("Info")]
+    public string Name;
+    public string Description;
+
     [Header("Waves")]
     public List<WaveOption> waveOptions = new();
 

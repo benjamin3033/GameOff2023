@@ -42,6 +42,8 @@ public class GameController : MonoBehaviour
 
     [Header("Start Level Refs")]
     [SerializeField] GameObject SpawnArea;
+    [SerializeField] Texture2D cursor;
+    [SerializeField] GameObject DirectionalLight;
 
     [Header("Milk")]
     [SerializeField] int MilkChance = 10;
@@ -136,6 +138,8 @@ public class GameController : MonoBehaviour
         StartEnemies();
         Overlay.SetActive(true);
         PlayerAnimation.animator.SetLayerWeight(1, 1);
+        Cursor.SetCursor(cursor, new Vector2(50, 50), CursorMode.Auto);
+        DirectionalLight.SetActive(true);
     }
 
     private void ChangeCamera()

@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c79015bcb8b3244b3f45aaa72e834f, type: 3}
   m_Name: Main
   m_EditorClassIdentifier: 
+  Name: Main
+  Description: This is the main level
   waveOptions:
   - time: 0
     amount: 50

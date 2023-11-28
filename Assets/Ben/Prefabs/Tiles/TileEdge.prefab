@@ -28,6 +28,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TileEdge
       objectReference: {fileID: 0}
+    - target: {fileID: 3265747554029307776, guid: e88b4bafbe7fe174ba4d6e4321b38160,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7363818636598627433, guid: e88b4bafbe7fe174ba4d6e4321b38160,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -108,6 +113,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 148592432116185320, guid: be12752a4705df74caeb1d8d27b71ef3,
         type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 148592432116185320, guid: be12752a4705df74caeb1d8d27b71ef3,
+        type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -175,6 +185,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367269149954121768, guid: be12752a4705df74caeb1d8d27b71ef3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

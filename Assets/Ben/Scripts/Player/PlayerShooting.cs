@@ -9,6 +9,8 @@ public class PlayerShooting : MonoBehaviour
     [SerializeField] Transform WeaponHoldPoint;
     [SerializeField] PlayerAnimation playerAnimation;
 
+    [SerializeField] Transform ShotStartTransform;
+
     bool canShoot = true;
 
     GameObject weaponVisual;
@@ -27,6 +29,7 @@ public class PlayerShooting : MonoBehaviour
     {
         Destroy(weaponVisual);
         weaponVisual = Instantiate(weapon.Weapon, WeaponHoldPoint);
+        ShotStartTransform.localPosition = weapon.ShotStartPosition;
 
         weaponVisual.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
         weaponVisual.transform.localPosition = weapon.VisualPosition;
@@ -49,7 +52,7 @@ public class PlayerShooting : MonoBehaviour
 
         Projectile shot = Instantiate(currentWeapon.projectile);
         shot.SetWeapon(currentWeapon);
-        shot.transform.position = transform.position + (transform.forward);
+        shot.transform.position = ShotStartTransform.position;
         shot.SendProjectileInDirection(transform.forward * currentWeapon.ProjectileSpeed);
 
         if(currentWeapon.projectileTrail != null)

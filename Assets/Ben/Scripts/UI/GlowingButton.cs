@@ -16,16 +16,19 @@ public class GlowingButton : HighlitedButton
     [ColorUsage(true, true)]
     [SerializeField] Color NoGlow;
 
+    [SerializeField] float EnterAmount = 0.2f;
+    [SerializeField] float ExitAmount = 0.111f;
+
     public override void OnPointerEnter(PointerEventData eventData)
     {
         HoverGlow(GlowOn);
-        button.DOLocalMoveZ(0.2f, 0.2f);
+        button.DOLocalMoveZ(EnterAmount, 0.2f);
     }
 
     public override void OnPointerExit(PointerEventData eventData) 
     {
         HoverGlow(NoGlow);
-        button.DOLocalMoveZ(0.111f, 0.3f);
+        button.DOLocalMoveZ(ExitAmount, 0.3f);
     }
 
     public void HoverGlow(Color Glow)
