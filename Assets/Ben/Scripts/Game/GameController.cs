@@ -36,9 +36,16 @@ public class GameController : MonoBehaviour
     [SerializeField] TMP_Text CookiesText;
     [SerializeField] GameObject TopDownCamera;
     [SerializeField] GameObject PlayMenuCamera;
-    [SerializeField] GameObject GameOverMenu;
+
     [SerializeField] GameObject Overlay;
     [SerializeField] Image FadeToWhite;
+
+    [Header("Game Over")]
+    [SerializeField] LevelTimer timer;
+    [SerializeField] GameObject GameOverMenu;
+    [SerializeField] TMP_Text GameOverTitle;
+    [SerializeField] TMP_Text CookiesCollectedText;
+    [SerializeField] TMP_Text TimeSurvivedText;
 
     [Header("Start Level Refs")]
     [SerializeField] GameObject SpawnArea;
@@ -59,6 +66,7 @@ public class GameController : MonoBehaviour
     public Action<int> PlayerHealthChanged;
 
     private float length;
+    public bool CanTakeDamage = true;
 
     private void OnEnable()
     {
@@ -69,6 +77,22 @@ public class GameController : MonoBehaviour
         else
         {
             Instance = this;
+        }
+
+        LevelTimer.OnTimerTick += OnTimerTick;
+    }
+
+    private void OnDisable()
+    {
+        LevelTimer.OnTimerTick -= OnTimerTick;
+    }
+
+    private void OnTimerTick(float time)
+    {
+        if(time >= levelSO.length)
+        {
+            GameOverTitle.text = "You survived!";
+            PlayerDied();
         }
     }
 
@@ -97,7 +121,11 @@ public class GameController : MonoBehaviour
 
     public void ChangeHealth(int amount)
     {
-        CurrentHealth += amount;
+        if (CanTakeDamage)
+        {
+            CurrentHealth += amount;
+
+        }        
 
         if(CurrentHealth > MaxHealth)
         {
@@ -118,6 +146,26 @@ public class GameController : MonoBehaviour
         CanPlayerMove = false;
         GamePaused = true;
         Overlay.SetActive(false);
+
+        CookiesCollectedText.text = "You collected " + CookiesCollected.ToString() + " cookies!";
+
+        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+        
+        float timeSurvived = timer.GetCurrentTime();
+        TimeSpan time = TimeSpan.FromSeconds(timeSurvived);
+
+        if (timeSurvived < 60)
+        {
+            TimeSurvivedText.text = "You survived for " + ((int)timeSurvived).ToString() + " seconds";
+        }
+        else if (timeSurvived < 600)
+        {
+            TimeSurvivedText.text = "You survived for " + time.ToString("m' minutes and 'ss' seconds'");
+        }
+        else
+        {
+            TimeSurvivedText.text = "You survived for " + time.ToString("m' minutes and 'ss' seconds'");
+        }
     }
 
     public IEnumerator StartLevel()
@@ -217,6 +265,7 @@ public class GameController : MonoBehaviour
     private void SpawnCookie(Vector3 position)
     {
         GameObject cookieInstance = Instantiate(Cookie);
+        position.y = 1;
         cookieInstance.transform.position = position;
     }
 
@@ -228,6 +277,7 @@ public class GameController : MonoBehaviour
         if (randomNumber == 1)
         {
             Milk milkInstance = Instantiate(Milk);
+            position.y = 1;
             milkInstance.transform.position = position;
             milkInstance.MilkValue = randomValue;
         }

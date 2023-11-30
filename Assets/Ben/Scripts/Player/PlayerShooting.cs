@@ -25,6 +25,11 @@ public class PlayerShooting : MonoBehaviour
         input.shoot -= ShootWeaponInput;
     }
 
+    public void ToggleWeaponVisibility(bool turnOn)
+    {
+        weaponVisual.SetActive(turnOn);
+    }
+
     public void ChangeWeapon(WeaponSO weapon)
     {
         Destroy(weaponVisual);
@@ -53,7 +58,8 @@ public class PlayerShooting : MonoBehaviour
         Projectile shot = Instantiate(currentWeapon.projectile);
         shot.SetWeapon(currentWeapon);
         shot.transform.position = ShotStartTransform.position;
-        shot.SendProjectileInDirection(transform.forward * currentWeapon.ProjectileSpeed);
+
+        shot.SendProjectileInDirection(ShotStartTransform.forward * currentWeapon.ProjectileSpeed);
 
         if(currentWeapon.projectileTrail != null)
         {

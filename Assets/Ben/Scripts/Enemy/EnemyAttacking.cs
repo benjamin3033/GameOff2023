@@ -6,7 +6,7 @@ public class EnemyAttacking : MonoBehaviour
     [SerializeField] bool NearPlayer = false;
     [SerializeField] Enemy enemy;
 
-    private Animator animator;
+    public Animator animator;
 
     private void Start()
     {

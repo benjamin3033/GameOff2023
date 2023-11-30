@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5071560163871760855}
   - component: {fileID: 1709194272473997335}
   - component: {fileID: 2676548237795959887}
-  - component: {fileID: 2326394247751987510}
   m_Layer: 10
   m_Name: Giant Candy Cane
   m_TagString: Untagged
@@ -79,22 +78,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.21856311, y: 0.4404751, z: 0.8788619}
   m_Center: {x: 0.011332229, y: 1.3155627, z: -0.27472365}
---- !u!208 &2326394247751987510
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1506148450426400674}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 0.14, y: 1, z: 0.14}
-  m_MoveThreshold: 0.1
-  m_Carve: 1
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1001 &3469161187525288545
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -80,7 +80,7 @@ Material:
     - _Elf_Shoes: {r: 0.16938525, g: 0.5471698, b: 0.07484869, a: 0}
     - _Elf_Skin_Color: {r: 0.3504361, g: 0.36608464, b: 0.4245283, a: 0}
     - _Hat_Main_Color: {r: 0, g: 0, b: 0, a: 0}
-    - _Hat_Secondarly_Color: {r: 1, g: 0, b: 0, a: 0}
+    - _Hat_Secondarly_Color: {r: 0, g: 0, b: 0, a: 0}
     - _Nose: {r: 0.9490197, g: 0.5803922, b: 0, a: 0}
     - _Santa_Main_Arm_Color: {r: 1, g: 0, b: 0.51669216, a: 0}
     - _Scarf_Color: {r: 1, g: 0, b: 0, a: 0}

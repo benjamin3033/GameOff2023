@@ -215,6 +215,7 @@ GameObject:
   - component: {fileID: 9184465757951109414}
   - component: {fileID: 7052049097367709696}
   - component: {fileID: 937862837354550846}
+  - component: {fileID: 1180561862379682778}
   m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
@@ -239,6 +240,7 @@ Transform:
   - {fileID: 7544119479139859870}
   - {fileID: 574561425312461109}
   - {fileID: 5652577367760054420}
+  - {fileID: 7163168491876773073}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &8526817330393695569
@@ -289,7 +291,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!135 &4115500065272600177
 SphereCollider:
@@ -361,7 +363,7 @@ MonoBehaviour:
   currentWeapon: {fileID: 11400000, guid: ce143c3c4ceb0f049a7e0df386c3bb15, type: 2}
   WeaponHoldPoint: {fileID: 6178811506030124784}
   playerAnimation: {fileID: 998161379738450111}
-  ShotStartTransform: {fileID: 0}
+  ShotStartTransform: {fileID: 7163168491876773073}
 --- !u!114 &937862837354550846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -375,6 +377,57 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 20
+--- !u!114 &1180561862379682778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6170223898140061443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78a1a919deb8db44baed24815d76e16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimation: {fileID: 998161379738450111}
+  playerResizing: {fileID: 9184465757951109414}
+  playerShooting: {fileID: 7052049097367709696}
+  playerMovement: {fileID: 8181875621453854634}
+  SmashEffect: {fileID: 5120789069480758484, guid: 6c878959932d70b4e8154d4c8cf9beb6,
+    type: 3}
+  StompEffect: {fileID: 5120789069480758484, guid: 6c878959932d70b4e8154d4c8cf9beb6,
+    type: 3}
+--- !u!1 &8360429922916233713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7163168491876773073}
+  m_Layer: 3
+  m_Name: ShotStartTransform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7163168491876773073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8360429922916233713}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.598, y: -0.108, z: 0.747}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1012291371843071267}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4506223308963022895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -763,5 +816,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 3976316539127929376}
-  Layer0: 0
-  Layer1: 0

@@ -7,6 +7,7 @@ using UnityEngine.AI;
 public class EnemySO : ScriptableObject
 {
     public GameObject Visual;
+    public GameObject Corpse;
     public float VisualHeight;
     public Vector3 VisualRotation;
     public List<string> AnimationTriggers = new();

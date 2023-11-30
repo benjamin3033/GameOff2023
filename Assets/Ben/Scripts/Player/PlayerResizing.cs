@@ -13,6 +13,8 @@ public class PlayerResizing : MonoBehaviour
 
     [SerializeField] private bool ScaleIsSlim = true;
 
+    public Action <bool>IsBig;
+
     private void OnEnable()
     {
         inputHandler.resize += ResizeInput;
@@ -25,7 +27,7 @@ public class PlayerResizing : MonoBehaviour
 
     private void ResizeInput()
     {
-        if (GameController.Instance.CurrentMilk < 100) { return; }
+        if (GameController.Instance.CurrentMilk < 100 && ScaleIsSlim) { return; }
 
         ResizePlayer();
     }
@@ -37,6 +39,8 @@ public class PlayerResizing : MonoBehaviour
 
         if(!ScaleIsSlim)
         {
+            IsBig?.Invoke(true);
+
             GameController.Instance.ResetMilk();
 
             Vector3 playerPosition = transform.position;
@@ -47,9 +51,13 @@ public class PlayerResizing : MonoBehaviour
             {
                 if (hit.transform.TryGetComponent<EnemyAI>(out EnemyAI enemyComponent))
                 {
-                    enemyComponent.ExplodeAwayFromPlayer(transform.position, ExplosionForce, UpwardMultiplyer, 5);
+                    enemyComponent.ExplodeAwayFromPlayer(transform.position, ExplosionForce, UpwardMultiplyer, 5, false);
                 }
             }
+        }
+        else
+        {
+            IsBig?.Invoke(false);
         }
     }
 }

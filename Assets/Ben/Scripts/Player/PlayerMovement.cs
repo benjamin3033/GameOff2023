@@ -28,6 +28,11 @@ public class PlayerMovement : MonoBehaviour
         HandleMovement();
     }
 
+    public void ChangeMovementSpeed(float change)
+    {
+        MovementSpeed = change;
+    }
+
     private void HandleMovement()
     {
         if(previousInput == Vector2.zero || !GameController.Instance.CanPlayerMove) { return; }

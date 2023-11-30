@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
-using UnityEngine.Rendering.Universal;
 
 public class Enemy : MonoBehaviour
 {
@@ -11,12 +9,20 @@ public class Enemy : MonoBehaviour
     public EnemySO enemySO;
     public Transform Visual;
     public TileOcclusion occlusion;
+    private EnemyAI enemyAI;
 
     public Action<EnemyAI> EnemyDied;
 
-    [SerializeField] List<Texture2D> bloods = new();
+    public List<Texture2D> bloods = new();
 
-    [SerializeField] MeshRenderer BloodPrefab;
+    public MeshRenderer BloodPrefab;
+
+    public Vector3 LastHitPosition;
+
+    private void Start()
+    {
+        enemyAI = GetComponent<EnemyAI>();
+    }
 
     public void TakeDamage(int amount)
     {
@@ -33,16 +39,11 @@ public class Enemy : MonoBehaviour
     private void KillEnemy()
     {
         EnemyDied?.Invoke(GetComponent<EnemyAI>());
-        Visual.localRotation = Quaternion.Euler(0, -90, 90);
-        Destroy(Visual.GetComponentInChildren<Animator>());
-        Visual.parent = null;
 
-        MeshRenderer blood = Instantiate(BloodPrefab);
-        blood.material.SetTexture("_Blood_Image", bloods[UnityEngine.Random.Range(0, bloods.Count)]);
-        blood.transform.position = new Vector3(transform.position.x, 0.01f, transform.position.z);
+        //Destroy(Visual.gameObject);
 
-        GameController.Instance.EnemyDied(transform.position);
+        enemyAI.ExplodeAwayFromPlayer(LastHitPosition, 5, 1, 1, true);
+
         
-        Destroy(gameObject);
     }
 }

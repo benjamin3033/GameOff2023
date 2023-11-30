@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Snowman
   m_EditorClassIdentifier: 
   Visual: {fileID: 6960672838412245812, guid: fb5b94f3d06369844ac1b5c091ffcf9d, type: 3}
+  Corpse: {fileID: 8600824179718118252, guid: 4377fc3636c1d564b8148136ed5bf3b1, type: 3}
   VisualHeight: -1.0877
   VisualRotation: {x: 0, y: 90, z: 0}
   AnimationTriggers:

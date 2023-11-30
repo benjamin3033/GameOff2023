@@ -17,10 +17,10 @@ public class EnemySpawner : MonoBehaviour
         enemies.Add(enemyInstance);
 
         enemyInstance.transform.position = spawnPosition;
-        enemyVisual.transform.localPosition = new Vector3(0, enemyType.VisualHeight, 0);
-        enemyVisual.transform.localRotation = Quaternion.Euler(enemyType.VisualRotation);
+        enemyVisual.transform.SetLocalPositionAndRotation(new Vector3(0, enemyType.VisualHeight, 0), Quaternion.Euler(enemyType.VisualRotation));
 
         enemyInstance.enemySO = enemyType;
+        enemy.enemySO = enemyType;
         enemy.EnemyDied += OnEnemyDeath;
         enemy.UpdateStats(waveOption);
         

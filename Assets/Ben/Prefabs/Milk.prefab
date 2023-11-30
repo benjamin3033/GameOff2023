@@ -67,7 +67,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4735f079bb80be4eb3b5b7b4e83cab0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MilkValue: 0
+  MilkValue: 100
 --- !u!1001 &6964774720679542391
 PrefabInstance:
   m_ObjectHideFlags: 0

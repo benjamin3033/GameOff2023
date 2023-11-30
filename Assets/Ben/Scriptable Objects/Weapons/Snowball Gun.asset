@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 4545344844539664421, guid: 364646f5937ca014e9586fce9beedc98,
     type: 3}
-  projectileTrail: {fileID: 5890045561557738439, guid: 5788179306fec0a4ab7e51cd906cfaac,
-    type: 3}
+  projectileTrail: {fileID: 0}
   projectileCollision: {fileID: 7089479874226599395, guid: a59b04c8eff2e9f4e825223a10416911,
     type: 3}
   Weapon: {fileID: 2699394984624708670, guid: dbb7f0a76b224e34f921db404e17d25b, type: 3}
@@ -31,4 +30,4 @@ MonoBehaviour:
   Description: Fires a piercing icicle that damages multiple enemies in a row
   chosenProjectileType: 2
   ExplosiveRadius: 2
-  PierceAmount: 20
+  PierceAmount: 5

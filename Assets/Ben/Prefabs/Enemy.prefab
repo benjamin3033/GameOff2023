@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NearPlayer: 0
   enemy: {fileID: 1119153847628777251}
+  animator: {fileID: 0}
 --- !u!135 &2698146603536516395
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -178,6 +179,7 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 30ec54fb7e4d347458fd5d01b25f50b9, type: 3}
   BloodPrefab: {fileID: 1360193368221850801, guid: d074f44dc2ef55543960a717f58ea0ee,
     type: 3}
+  LastHitPosition: {x: 0, y: 0, z: 0}
 --- !u!114 &126447632353482117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,6 +195,8 @@ MonoBehaviour:
   agent: {fileID: 2042392205363046986}
   enemy: {fileID: 1119153847628777251}
   rb: {fileID: 565543211863919074}
+  enemyAttacking: {fileID: 5511734192351204201}
+  enemySO: {fileID: 0}
 --- !u!136 &3585258481283840923
 CapsuleCollider:
   m_ObjectHideFlags: 0

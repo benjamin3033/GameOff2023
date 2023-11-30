@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Elf
   m_EditorClassIdentifier: 
   Visual: {fileID: 603091905029162714, guid: 47ee65cbf5464a540b334be22d51a1e9, type: 3}
+  Corpse: {fileID: 2287638377886581755, guid: 8643735a41bd6c249832bc2294a1d34c, type: 3}
   VisualHeight: -1.079
   VisualRotation: {x: 0, y: -90, z: 0}
   AnimationTriggers:

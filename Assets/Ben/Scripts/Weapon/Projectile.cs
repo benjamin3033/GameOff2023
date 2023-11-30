@@ -1,7 +1,4 @@
 using Cinemachine;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.ProjectWindowCallback;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
@@ -37,6 +34,7 @@ public class Projectile : MonoBehaviour
                         if (hitCollider.TryGetComponent<Enemy>(out Enemy enemy))
                         {
                             enemy.TakeDamage(weapon.ShotDamage);
+                            enemy.LastHitPosition = transform.position;
                         }
                     }
                     DestroyProjectile(0);

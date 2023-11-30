@@ -44,4 +44,4 @@ MonoBehaviour:
     type: 3}
   centerTilePrefab: {fileID: 3265747554029307776, guid: e88b4bafbe7fe174ba4d6e4321b38160,
     type: 3}
-  length: 0
+  length: 60

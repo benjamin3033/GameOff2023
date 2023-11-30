@@ -7,9 +7,6 @@ public class PlayerAnimation : MonoBehaviour
     public static Animator animator;
     [SerializeField] Rigidbody rb;
 
-    [SerializeField] float Layer0;
-    [SerializeField] float Layer1;
-
     float magnitude;
 
     private void Start()
@@ -54,6 +51,24 @@ public class PlayerAnimation : MonoBehaviour
         animator.SetLayerWeight(2, 1);
     }
 
+    public void ChangeLayer(int layerIndex, float weight)
+    {
+        animator.SetLayerWeight(layerIndex, weight);
+    }
 
+    public void TriggerAnimation(string name)
+    {
+        animator.SetTrigger(name);
+    }
+
+    public void SmashAttack()
+    {
+        PlayerMelee.Instance.SmashAttack();
+    }
+
+    public void StompAttack()
+    {
+        PlayerMelee.Instance.StompAttack();
+    }
 
 }
