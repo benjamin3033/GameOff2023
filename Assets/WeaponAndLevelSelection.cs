@@ -13,8 +13,8 @@ public class WeaponAndLevelSelection : MonoBehaviour
     [SerializeField] List<WeaponSO> weapons = new();
     [SerializeField] List<LevelSO> levels = new();
 
-    private WeaponSO currentWeaponSO;
-    private LevelSO currentLevelSO;
+    [SerializeField] private WeaponSO currentWeaponSO;
+    [SerializeField] private LevelSO currentLevelSO;
 
     [SerializeField] private int levelIndex;
     [SerializeField] private int weaponIndex;

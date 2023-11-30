@@ -15,13 +15,10 @@ public class LevelTileController : MonoBehaviour
         public float chance;
     }
 
-    private void Start()
-    {
-        levelSO = GameController.Instance.levelSO;
-    }
-
     public void GenerateGrid()
     {
+        levelSO = GameController.Instance.levelSO;
+
         for (int row = 0; row < levelSO.numRows; row++)
         {
             for (int col = 0; col < levelSO.numCols; col++)

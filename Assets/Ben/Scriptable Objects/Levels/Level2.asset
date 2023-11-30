@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0c79015bcb8b3244b3f45aaa72e834f, type: 3}
-  m_Name: Nothing
+  m_Name: Level2
   m_EditorClassIdentifier: 
-  Name: Nothing
-  Description: No enemies, nothing...
+  Name: Level 2
+  Description: Level 2
   waveOptions: []
-  numRows: 50
-  numCols: 50
+  numRows: 100
+  numCols: 4
   spacing: 20
   TilePrefab:
   - tile: {fileID: 2314638382274059713, guid: 514617a5b631b1f4487b548f4f216435, type: 3}

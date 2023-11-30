@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa84ce56ad1993e429b38d1ad58c1284, type: 3}
-  m_Name: Snowman
+  m_Name: Snowman Fast
   m_EditorClassIdentifier: 
   Visual: {fileID: 6960672838412245812, guid: fb5b94f3d06369844ac1b5c091ffcf9d, type: 3}
   Corpse: {fileID: 8600824179718118252, guid: 4377fc3636c1d564b8148136ed5bf3b1, type: 3}
@@ -20,9 +20,9 @@ MonoBehaviour:
   - Attack1
   - Attack2
   NavMeshAgentType: 0
-  Speed: 5
-  AngularSpeed: 150
-  Acceleration: 6
+  Speed: 8
+  AngularSpeed: 200
+  Acceleration: 8
   StoppingDistance: 0
   AutoBraking: 1
   Radius: 0.3

@@ -20,8 +20,8 @@ MonoBehaviour:
   - Attack1
   - Attack2
   NavMeshAgentType: 0
-  Speed: 4
-  AngularSpeed: 120
+  Speed: 6
+  AngularSpeed: 150
   Acceleration: 8
   StoppingDistance: 0
   AutoBraking: 1

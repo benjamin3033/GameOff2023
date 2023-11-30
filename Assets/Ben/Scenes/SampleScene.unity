@@ -2610,6 +2610,8 @@ MonoBehaviour:
   levels:
   - {fileID: 11400000, guid: e74194309657db2439e05f8c6dc8a13c, type: 2}
   - {fileID: 11400000, guid: 6f5d85ba09b61344d9c159f0c90e5a1f, type: 2}
+  currentWeaponSO: {fileID: 0}
+  currentLevelSO: {fileID: 0}
   levelIndex: 0
   weaponIndex: 0
 --- !u!1 &591041187
