@@ -76,6 +76,7 @@ public class EnemyAI : MonoBehaviour
         MeshRenderer blood = Instantiate(enemy.BloodPrefab);
         blood.material.SetTexture("_Blood_Image", enemy.bloods[UnityEngine.Random.Range(0, enemy.bloods.Count)]);
         blood.transform.position = new Vector3(transform.position.x, 0.01f, transform.position.z);
+        blood.transform.eulerAngles = new Vector3(0, UnityEngine.Random.Range(0,360),0);
 
         yield return new WaitForSeconds(1.5f);
 
