@@ -14,7 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Level 2
   Description: Level 2
-  waveOptions: []
+  waveOptions:
+  - time: 0
+    amount: 10
+    radius: 30
+    HealthRange: {x: 1, y: 1}
+    DamageRange: {x: 1, y: 1}
+    enemySO: {fileID: 11400000, guid: 09122b6dde06efc4e8c7f4003aa0f396, type: 2}
+    Option: 1
+  - time: 0
+    amount: 10
+    radius: 30
+    HealthRange: {x: 1, y: 1}
+    DamageRange: {x: 1, y: 1}
+    enemySO: {fileID: 11400000, guid: 09122b6dde06efc4e8c7f4003aa0f396, type: 2}
+    Option: 1
+  - time: 30
+    amount: 30
+    radius: 30
+    HealthRange: {x: 1, y: 1}
+    DamageRange: {x: 1, y: 1}
+    enemySO: {fileID: 11400000, guid: 4fbc66ff8175ed7459324bec5b0c1623, type: 2}
+    Option: 0
   numRows: 100
   numCols: 4
   spacing: 20
@@ -37,4 +58,4 @@ MonoBehaviour:
     type: 3}
   centerTilePrefab: {fileID: 3265747554029307776, guid: e88b4bafbe7fe174ba4d6e4321b38160,
     type: 3}
-  length: 10
+  length: 200
