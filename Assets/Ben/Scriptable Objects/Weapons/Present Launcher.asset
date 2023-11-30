@@ -19,7 +19,7 @@ MonoBehaviour:
   projectileCollision: {fileID: 6344948186754524761, guid: 037cc2414873b6249a93453cb89d946f,
     type: 3}
   Weapon: {fileID: 3678637662938499818, guid: 96a6b239d405af7439d4e01b0cdfe2c9, type: 3}
-  ShotDelay: 0.1
+  ShotDelay: 3
   ShotDamage: 1
   ShotLifeTime: 2
   ProjectileSpeed: 1000

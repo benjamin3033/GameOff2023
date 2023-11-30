@@ -22,6 +22,13 @@ MonoBehaviour:
     DamageRange: {x: 1, y: 1}
     enemySO: {fileID: 11400000, guid: 24e9bf8814859d844948c7e28fe6b05b, type: 2}
     Option: 1
+  - time: 20
+    amount: 50
+    radius: 30
+    HealthRange: {x: 1, y: 1}
+    DamageRange: {x: 1, y: 1}
+    enemySO: {fileID: 11400000, guid: 540d3606717533f41bfccb6d1cffa90d, type: 2}
+    Option: 1
   numRows: 50
   numCols: 50
   spacing: 20

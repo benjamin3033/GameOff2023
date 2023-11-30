@@ -12,6 +12,7 @@ public class PlayerShooting : MonoBehaviour
     [SerializeField] Transform ShotStartTransform;
 
     bool canShoot = true;
+    bool isBig = false;
 
     GameObject weaponVisual;
 
@@ -28,6 +29,7 @@ public class PlayerShooting : MonoBehaviour
     public void ToggleWeaponVisibility(bool turnOn)
     {
         weaponVisual.SetActive(turnOn);
+        isBig = !turnOn;
     }
 
     public void ChangeWeapon(WeaponSO weapon)
@@ -46,7 +48,7 @@ public class PlayerShooting : MonoBehaviour
 
     private void ShootWeaponInput()
     {
-        if (!canShoot || !GameController.Instance.CanPlayerMove) { return; }
+        if (!canShoot || !GameController.Instance.CanPlayerMove || isBig) { return; }
 
         StartCoroutine(FireWeapon());
     }
