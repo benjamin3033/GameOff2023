@@ -27,5 +27,5 @@ MonoBehaviour:
   AutoBraking: 1
   Radius: 0.3
   Height: 2
-  Quality: 2
+  Quality: 1
   Priority: 50
